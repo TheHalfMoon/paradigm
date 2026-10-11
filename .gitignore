@@ -1,0 +1,22 @@
+# Large data and compute artifacts belong on authorized remote storage.
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.mp4
+*.mov
+*.webm
+*.parquet
+*.tar
+*.zip
+*.zst
+node_modules/
+.venv/
+__pycache__/
+.env
+.env.*
+work/
+cache/
+checkpoints/
+outputs/
