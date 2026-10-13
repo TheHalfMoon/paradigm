@@ -1555,5 +1555,265 @@
     "bytes": 43281,
     "digest_scope": "Exa response JSON, not publisher HTML",
     "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "qwen2vl2-card-oct13",
+    "url": "https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/raw/895c3a49bc3fa70a340399125c650a463535e71c/README.md",
+    "accessed_at": "2026-10-13T18:36:18.894230+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/raw/895c3a49bc3fa70a340399125c650a463535e71c/README.md",
+    "sha256": "74fbe869df708593087ae2ee66a6605d33fc2025937644721dc1360963d037f4",
+    "bytes": 17392,
+    "truncated": false
+  },
+  {
+    "id": "qwen2vl2-config-oct13",
+    "url": "https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/raw/895c3a49bc3fa70a340399125c650a463535e71c/config.json",
+    "accessed_at": "2026-10-13T18:36:18.902066+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/raw/895c3a49bc3fa70a340399125c650a463535e71c/config.json",
+    "sha256": "422adefa19e62dd175961cec85bc0400344fe5bf9b22bd1182e05aaae78556e0",
+    "bytes": 1196,
+    "truncated": false
+  },
+  {
+    "id": "qwen25vl3-card-oct13",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/raw/66285546d2b821cf421d4f5eb2576359d3770cd3/README.md",
+    "accessed_at": "2026-10-13T18:36:18.902066+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/raw/66285546d2b821cf421d4f5eb2576359d3770cd3/README.md",
+    "sha256": "0b6da5a154b923da4dc66e416140c9b7f235f9b08fbbcc27fd9df7b586e3150d",
+    "bytes": 18276,
+    "truncated": false
+  },
+  {
+    "id": "qwen25vl3-license-oct13",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/raw/66285546d2b821cf421d4f5eb2576359d3770cd3/LICENSE",
+    "accessed_at": "2026-10-13T18:36:18.903764+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/raw/66285546d2b821cf421d4f5eb2576359d3770cd3/LICENSE",
+    "sha256": "b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50",
+    "bytes": 7387,
+    "truncated": false
+  },
+  {
+    "id": "qwen3vl2-card-oct13",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/raw/89644892e4d85e24eaac8bacfd4f463576704203/README.md",
+    "accessed_at": "2026-10-13T18:36:18.904286+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/raw/89644892e4d85e24eaac8bacfd4f463576704203/README.md",
+    "sha256": "5fc5be1ca9a3910399bd6239ee5086ab5d82a2a59c5d2b00e887a8835cc110e4",
+    "bytes": 7136,
+    "truncated": false
+  },
+  {
+    "id": "qwen3vl2-config-oct13",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/raw/89644892e4d85e24eaac8bacfd4f463576704203/config.json",
+    "accessed_at": "2026-10-13T18:36:18.904286+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/raw/89644892e4d85e24eaac8bacfd4f463576704203/config.json",
+    "sha256": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+    "bytes": 1505,
+    "truncated": false
+  },
+  {
+    "id": "qwen3vl4-card-oct13",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct/raw/ebb281ec70b05090aa6165b016eac8ec08e71b17/README.md",
+    "accessed_at": "2026-10-13T18:36:18.905869+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct/raw/ebb281ec70b05090aa6165b016eac8ec08e71b17/README.md",
+    "sha256": "a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79",
+    "bytes": 7133,
+    "truncated": false
+  },
+  {
+    "id": "qwen35-4b-card-oct13",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-4B/raw/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/README.md",
+    "accessed_at": "2026-10-13T18:36:18.905869+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Qwen/Qwen3.5-4B/raw/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/README.md",
+    "sha256": "1406be1b6b8fd8a6545870da516912804756593628a1d0fb0a7965211e82a7bb",
+    "bytes": 77661,
+    "truncated": false
+  },
+  {
+    "id": "smolvlm2-card-oct13",
+    "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct/raw/482adb537c021c86670beed01cd58990d01e72e4/README.md",
+    "accessed_at": "2026-10-13T18:36:19.335733+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct/raw/482adb537c021c86670beed01cd58990d01e72e4/README.md",
+    "sha256": "8e46e92a3a40643b85a6df905b1a2014bcb7a01daaf6566588c89a95c5c6e700",
+    "bytes": 11437,
+    "truncated": false
+  },
+  {
+    "id": "showui-card-oct13",
+    "url": "https://huggingface.co/showlab/ShowUI-2B/raw/cabec4fcc48d15ffd3efe0b33ea9bc7d41509d60/README.md",
+    "accessed_at": "2026-10-13T18:36:19.341118+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/showlab/ShowUI-2B/raw/cabec4fcc48d15ffd3efe0b33ea9bc7d41509d60/README.md",
+    "sha256": "40946552d4ce1625d6c234b8b85b33bf70765f1c76a6e56c678cc1ac2d2a72b5",
+    "bytes": 7410,
+    "truncated": false
+  },
+  {
+    "id": "fara15-4b-card-oct13",
+    "url": "https://huggingface.co/microsoft/Fara1.5-4B/raw/776a33ae5b2ad503796a97ae20fdc66f61d2feea/README.md",
+    "accessed_at": "2026-10-13T18:36:19.342121+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara1.5-4B/raw/776a33ae5b2ad503796a97ae20fdc66f61d2feea/README.md",
+    "sha256": "817286a8d5f1fc05dc2ea36655dfa20b8a747aa39c57fa84c5be6be33b051faa",
+    "bytes": 15600,
+    "truncated": false
+  },
+  {
+    "id": "fara15-4b-config-oct13",
+    "url": "https://huggingface.co/microsoft/Fara1.5-4B/raw/776a33ae5b2ad503796a97ae20fdc66f61d2feea/config.json",
+    "accessed_at": "2026-10-13T18:36:19.349120+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara1.5-4B/raw/776a33ae5b2ad503796a97ae20fdc66f61d2feea/config.json",
+    "sha256": "1c3579d84808de8b24cfa535d8222307ba3f8956ebe66e9863da4dc009990cac",
+    "bytes": 2827,
+    "truncated": false
+  },
+  {
+    "id": "fara15-9b-card-oct13",
+    "url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/README.md",
+    "accessed_at": "2026-10-13T18:36:19.353124+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/README.md",
+    "sha256": "64a465ed7d131c47f734f0a2a6ef05d2e61e67de89ac384dacc98089c4551518",
+    "bytes": 15600,
+    "truncated": false
+  },
+  {
+    "id": "uitars15-7b-card-oct13",
+    "url": "https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B/raw/683d002dd99d8f95104d31e70391a39348857f4e/README.md",
+    "accessed_at": "2026-10-13T18:36:19.398511+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B/raw/683d002dd99d8f95104d31e70391a39348857f4e/README.md",
+    "sha256": "fd6ebdc23c119b356e12876c964597d2920e3a2878424a6b5a5b8706e6bc23c4",
+    "bytes": 8370,
+    "truncated": false
+  },
+  {
+    "id": "holo4-35b-card-oct13",
+    "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/README.md",
+    "accessed_at": "2026-10-13T18:36:19.490000+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/README.md",
+    "sha256": "4f1aa5006aa9adaeb5ac549e5a5f8ea164352714a00528b1afb8602812d45b44",
+    "bytes": 6081,
+    "truncated": false
+  },
+  {
+    "id": "osworld-trajs-card-oct13",
+    "url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_verified_trajs/raw/main/README.md",
+    "accessed_at": "2026-10-13T18:36:19.535531+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/xlangai/ubuntu_osworld_verified_trajs/raw/main/README.md",
+    "sha256": "3e115bb35b01a9be2c797effd4cac3e9ee2ff10036c0c7df648126db0a5a11fc",
+    "bytes": 2278,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-readme-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/README.md",
+    "accessed_at": "2026-10-13T18:36:58.827765+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/README.md",
+    "sha256": "f624a0a22ee3b6c3124eef688a21ae4f900a9e511bc1fb95569fb0c64d261ca4",
+    "bytes": 12107,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-architecture-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/docs/aladdin/ARCHITECTURE.md",
+    "accessed_at": "2026-10-13T18:36:58.827765+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/docs/aladdin/ARCHITECTURE.md",
+    "sha256": "131dad688323e3680e2b8fca75bded8bbc1d6f1e302ec0c5a46de57ff85d6aa9",
+    "bytes": 13659,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-ai-server-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/docs/aladdin/ALADDIN_AI_SERVER_ARCHITECTURE.md",
+    "accessed_at": "2026-10-13T18:36:58.827765+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/docs/aladdin/ALADDIN_AI_SERVER_ARCHITECTURE.md",
+    "sha256": "74fd0b6f7d07c216dc4aa9996352571fd0e306c48aa6e191b7ef382843775510",
+    "bytes": 11083,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-execution-frontier-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/docs/aladdin/EXECUTION_FRONTIER.md",
+    "accessed_at": "2026-10-13T18:36:58.827765+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/docs/aladdin/EXECUTION_FRONTIER.md",
+    "sha256": "62563c230b3009de3334dcd7a2a22fd051475b7cda142d739851bd0db15ce50c",
+    "bytes": 4934,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-proposal-source-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/apps/qdral-mcp/src/computer_action_proposal.ts",
+    "accessed_at": "2026-10-13T18:36:58.833470+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/apps/qdral-mcp/src/computer_action_proposal.ts",
+    "sha256": "f009e23330435ad677528b87cd44e47e232c32903ee816a9f44a6d3e52354681",
+    "bytes": 3255,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-desktop-source-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/apps/qdral-mcp/src/desktop.ts",
+    "accessed_at": "2026-10-13T18:36:58.833470+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/apps/qdral-mcp/src/desktop.ts",
+    "sha256": "1f5c6d794f65ef6b2ae9da8806fe768ffa4c2921bfe5ce511be345d4bf7a6043",
+    "bytes": 14041,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-tool-contract-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/apps/qdral-mcp/src/tool_contract.ts",
+    "accessed_at": "2026-10-13T18:36:58.833470+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/apps/qdral-mcp/src/tool_contract.ts",
+    "sha256": "25c1520beaa18b94cd6ee7c991b111905ab24868174c9c0dd08626c83bdc7947",
+    "bytes": 15289,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-approval-source-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/crates/qdral-approval/src/lib.rs",
+    "accessed_at": "2026-10-13T18:36:58.833470+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/crates/qdral-approval/src/lib.rs",
+    "sha256": "5ddc0c71ee93adb77e03bef77baa736e03cb2465043d040386623ac136259a85",
+    "bytes": 164000,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-policy-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/docs/canonical/QDRAL_COMPUTER_USE_EXECUTION_RULE.md",
+    "accessed_at": "2026-10-13T18:36:59.384276+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/docs/canonical/QDRAL_COMPUTER_USE_EXECUTION_RULE.md",
+    "sha256": "e1d5e66e049ee1035fccded2f565e70b29c34de8e78d80280c5914ec6022cec1",
+    "bytes": 408,
+    "truncated": false
+  },
+  {
+    "id": "aladdin-browser-source-oct13",
+    "url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/apps/qdral-mcp/src/browser.test.ts",
+    "accessed_at": "2026-10-13T18:36:59.404224+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/TheHalfMoon/Aladdin/ea801f562e56efab0714b912707d532659c89d61/apps/qdral-mcp/src/browser.test.ts",
+    "sha256": "0d8ae3ade8fe894585e6f4841514c4dd248f2359d5b6ba07c5c7b39698a5fa9c",
+    "bytes": 1234,
+    "truncated": false
   }
 ]

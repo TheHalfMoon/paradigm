@@ -1,5 +1,7 @@
 # Hala adaptation strategy and readiness
 
+**13 October refinement:** The Holo adaptation lane below is conditional on frozen-model/harness evidence. For Flash, first compare released Qwen3.5-4B, Qwen2-VL-2B, ShowUI-2B and browser Fara1.5-4B. A small rights-cleared 100–200 image pilot tests a diagnosed grounding deficit; one multitask LoRA is the control for separate brain/eye LoRAs. T4 six-hour feasibility, QLoRA kernels, FP16 precision, saved adapter parity and end-to-end gains are unmeasured. The [small-model audit](SMALL_MODEL_FEASIBILITY.md) and [experiment](../../plans/HALA_FLASH_FIRST_EXPERIMENT.md) are controlling gates.
+
 Base: Apache Holo 4-35B-A3B at pinned revision. Context/parser architecture inspected; no GPU model load or finetuning was performed. [Holo 4 analysis](HOLO4_DEEP_DIVE.md) and [data forensics](DATASET_FORENSICS.md) constrain the training lane.
 
 First improve the harness on fresh tasks. Then isolate a demonstrated deficit: drag grounding uses cleared DragOn train examples; repeated work flow/recovery errors use fresh verified trajectories. Maintain held-out app/template/image groups. Do not convert benchmark trajectories or h_cua_perf messages into SFT targets.

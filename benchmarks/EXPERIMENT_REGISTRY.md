@@ -10,3 +10,4 @@ All experiments are **planned, not executed**. [Machine-readable contracts](expe
 - **HA01:** Acknowledgement, timeouts, structured memory and recovery improve verified success with frozen weights Status: `planned_environment_and_gpu_not_executed`.
 - **HA02:** Cleared DragOn train improves unseen-screenshot drag grounding Status: `planned_recipe_qualification_required`.
 - **HA03:** Fresh verified successful/recovery trajectories improve unseen app success Status: `planned_recipe_qualification_required`.
+- **HA-FLASH-00:** Frozen small-model, harness-only and routed comparisons on sealed browser/Windows/Arabic tasks. Pro and two-LoRA claims remain conditional. Status: `planned_environment_and_gpu_not_executed`. [Detailed protocol](../plans/HALA_FLASH_FIRST_EXPERIMENT.md).

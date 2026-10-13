@@ -1,5 +1,15 @@
 # Compute, storage and financial model
 
+## 13 October Hala unit economics addendum
+
+The proposed $0.00002 per click and $5/month plan are **not measured**. Complete-task cost includes capture/encoding, model queue/prefill/decode, network, local execution/settling, verification, retries, Pro escalations, storage, speech, support, payment processing and idle GPU capacity. Use *cost per verified successful task*, not tokens or action count, as the routing objective. Aladdin's inspected adopted architecture is founder-hosted for AI; a local-only variant would require a separate product decision and moves electricity, hardware and support costs to the customer/vendor rather than making inference free. [Architecture](../research/hala/HALA_FOR_ALADDIN.md).
+
+Illustration only: a continuously warm $0.53/hour GPU would cost **$386.90 per 730-hour month** before storage/network. At 100 paying customers its idle share is **$3.87/customer** even with zero model actions; at 1,000 it is **$0.39/customer**, but available throughput and p95 queueing must then be measured. A warm $1.39/hour Pro GPU is **$1,014.70/month**, or **$10.15/customer at 100**. These hourly rates are the earlier public RunPod snapshot, not reserved offers. A serverless zero-scale worker avoids idle cost but can add cold-start time and billed setup; real quotes and load tests are required.
+
+Illustrative $5 monthly contribution for a light user, *assuming* payment processing of 2.9% + $0.30, support $0.75, shared control/speech/storage $0.50 and compute $0.50: **$2.81**, or **56.1%** of revenue, before taxes, refunds, marketing, development and fixed overhead. At a $3.87 GPU idle share instead of $0.50 compute, contribution becomes **negative $0.56**. A $20 tier under the same $0.75 + $0.50 + $3.87 and a hypothetical 2.9% + $0.30 fee yields **$13.99** before omitted costs. These are sensitivity examples, not forecast margins. Heavy users, Pro escalation and retries can erase them; cap usage based on measured compute per completed task and tail latency. A free tier should use explicit bounded quota or local customer hardware only after privacy and product architecture decisions.
+
+The [first Hala experiment](../plans/HALA_FLASH_FIRST_EXPERIMENT.md) records actions/task, model seconds, idle share, p50/p95/p99, failures and recovery. Refuse a $5 viability claim until a real usage cohort, support load, billing contract and capacity test exist. No payment link or infrastructure was created.
+
 Research cutoff:2026-10-12. **No paid services were activated, no paid inference called and no GPU training launched.** All durations below are planning assumptions; no training/inference throughput was measured. Source prices are snapshots, not a reservation or guarantee of hardware availability. Use [budget calculator](../tools/research_validation/README.md) to substitute actual measurements before authorization.
 
 ## Current provider evidence

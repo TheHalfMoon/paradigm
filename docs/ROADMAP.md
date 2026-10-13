@@ -1,5 +1,7 @@
 # Dependency-based roadmap
 
+**13 October Hala refinement:** after Plume PB00/PB01, prepare synthetic browser/Windows fixtures and a typed Aladdin proposal adapter; then run [HA-Flash-00](../plans/HALA_FLASH_FIRST_EXPERIMENT.md) with frozen Qwen2-VL-2B, Qwen3.5-4B, ShowUI-2B, browser Fara1.5-4B and Holo4 Pro (when qualified). Compare harness-only, Flash-only, Pro-only and hybrid before authorizing a 100–200 image single-versus-two-LoRA pilot. The prior H01–H04 estimates remain assumptions; exact hours depend on actual hardware and task setup. See [current status](CURRENT_STATUS.md) for execution state.
+
 Estimates are engineer workdays, not elapsed calendar commitments. Rights/access/compute approvals can dominate elapsed time. One workday means a focused implementer day; human review/render/GPU time are separate. Planned phases do not imply execution has occurred.
 
 | Unit | Phase / concrete task | Dependency | Estimated work | Done when |

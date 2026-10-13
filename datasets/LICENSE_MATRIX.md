@@ -1,5 +1,7 @@
 # License and asset rights decisions
 
+**13 October Hala model-rights note:** Qwen2-VL-2B, Qwen3-VL-2B/4B, Qwen3.5-4B, UI-TARS1.5-7B and Holo4-35B-A3B show Apache-2.0 model metadata at inspected revisions; ShowUI-2B and Fara1.5-4B/9B show MIT. The exact `Qwen/Qwen2.5-VL-3B-Instruct@6628554` [LICENSE](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/raw/66285546d2b821cf421d4f5eb2576359d3770cd3/LICENSE) is the **Qwen Research License**, non-commercial only without a separate commercial grant, despite an untagged model card. It is excluded from the commercial Hala shortlist. Check all component/model notices again before redistribution or hosting. Model permission never clears screenshots or training trajectories.
+
 Weight/code/dataset metadata/raw asset/annotation/teacher output rights are **separate layers**. [Registry](DATASET_REGISTRY.md) gives per dataset details. No blanket commercial clearance is implied by public download, Apache code or MIT model metadata.
 
 | Class | Initial disposition | Necessary evidence |

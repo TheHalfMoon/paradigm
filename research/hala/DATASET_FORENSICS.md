@@ -1,5 +1,7 @@
 # Hcompany dataset forensics
 
+**13 October OSWorld correction:** the public [OSWorld-Verified trajectory repository](https://huggingface.co/datasets/xlangai/ubuntu_osworld_verified_trajs/raw/main/README.md) contains model *evaluation* traces and itself calls training use “not recommended.” It is not the proposed 10,000 clean training examples. Exclude its tasks/screens/actions and near-duplicate task templates from Hala training. A 500-screen pilot counts original app/layout/task groups, never its 10,500 alleged resized or translated derivatives as independent observations. Rerender Arabic/RTL interfaces with corrected coordinates and split parent groups before augmentation. See [feasibility](SMALL_MODEL_FEASIBILITY.md).
+
 This investigation read cards, HTTP metadata and selected public JSON records. No screenshot archives or training dataset payloads were downloaded to the personal computer. Hashes/revisions appear in [source registry](../evidence/source-registry.json). No extra official factory training corpus was found in the inspected releases; that is bounded search evidence, not proof none will ever exist.
 
 | Dataset, frozen revision | Purpose / observed structure | Actual license and suitability | Leakage policy |

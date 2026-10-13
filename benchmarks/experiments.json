@@ -126,5 +126,21 @@
     "failure_interpretation": "Task diversity/model capacity/context constraints",
     "next_decision": "ScaleSFTorHA04 async RL only with measured rollout budget",
     "status": "planned_recipe_qualification_required"
+  },
+  {
+    "id": "HA-FLASH-00",
+    "model": "hala",
+    "hypothesis": "A compact model plus typed state-verifying harness can complete eligible low-risk tasks at lower cost per verified success than Pro-only without material success or safety loss",
+    "checkpoint": "Qwen/Qwen3.5-4B@851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a; controls Qwen2-VL-2B@895c3a4, ShowUI-2B@cabec4f, browser Fara1.5-4B@776a33a, Holo4-35B-A3B@5084587 when qualified",
+    "dataset": "Proposed 120 sealed synthetic browser/Windows tasks plus separate 60-task development pool; Arabic/RTL and unseen-app strata; no benchmark task training",
+    "training_configuration": "None for initial frozen-model and harness-only arms; optional later 100-200-image single-versus-two-LoRA pilot requires independent gate",
+    "resources": "Zero GPU dollars for specification; actual model runs require approved hardware quote and measured memory/throughput",
+    "success": "No unauthorized effect; on eligible strata paired success noninferior to Pro within 5 percentage points with task-bootstrap lower bound above -5 points, and at least 30 percent lower complete-task cost per success",
+    "baseline": "Flash-only, Pro-only and minimal-loop controls with same policy, task set, action/time ceiling and postcondition verifier",
+    "evaluation": "120 sealed tasks, three stochastic runs where needed, cluster confidence intervals; grounding, Arabic, desktop/browser, safety, p50/p95/p99 complete-task latency and cost",
+    "stop": "Any policy bypass, unqualified hardware, budget cap, persistent task-success deficit, or no cost-per-success gain",
+    "failure_interpretation": "Separate model capacity, unsupported action format, harness or router error, rights/benchmark contamination and hardware bottleneck; do not infer training value from failure alone",
+    "next_decision": "Retain Pro-only, route a proven narrow Flash role, or run one bounded rights-cleared grounding LoRA control after a diagnosed deficit",
+    "status": "planned_environment_and_gpu_not_executed"
   }
 ]

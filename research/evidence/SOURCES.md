@@ -1,5 +1,7 @@
 # Primary sources and access records
 
+**13 October extension:** 26 additional pinned Qwen, ShowUI, Fara, SmolVLM, UI-TARS, Holo4, OSWorld-Verified and Aladdin source records were fetched with HTTP 200 and SHA-256 metadata in the [registry](source-registry.json) under IDs ending `-oct13`. The Aladdin source is pinned to public commit `ea801f562e56efab0714b912707d532659c89d61`. Qwen2.5-VL-3B's actual LICENSE file grants non-commercial research/evaluation use and requires a separate commercial license; it is excluded from the unrestricted commercial base lane. The table below is the October 12 snapshot; the machine-readable registry is authoritative for the extension.
+
 Research cutoff: **2026-10-12, Asia/Riyadh**. UTC captures span October 11–12. Hashes identify the fetched bytes, not the truth of a claim. Failed endpoints are retained to explain corrected paths. Mutable pages must be rechecked before training or publication. No weight license agreement was accepted.
 
 The machine-readable [source registry](source-registry.json) records URLs, access times, HTTP outcomes, byte counts and SHA-256. Search/fetch responses have a separately identified digest scope. Full copyrighted cards and papers are not redistributed here.
