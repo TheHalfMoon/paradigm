@@ -1,15 +1,17 @@
 # Research agent instructions
 
 - Write all communication, code, reports, issues and commits in English.
-- Inspect the live default branch, issues, PRs, this file, and docs/CURRENT_STATUS.md before continuing. Never invent prior work.
-- Link important findings to primary sources with access date and immutable revision when available. Separate verified source facts, vendor measurements, proposals and executed experiments.
-- Never fabricate tool output, training results, benchmark scores or dataset rights.
-- Read REA's official requirements before use. Prefer source analysis for accessible code. Record target SHA, commands, genuine output, verification and blind spots.
-- Public accessibility and repository licenses do not clear underlying dataset assets. Record per-asset evidence and rights, including likeness, privacy, music and redistribution. Quarantine uncertain assets.
-- Exclude benchmark test tasks and their trajectories from training. Split by source, identity, template and environment before augmentation. Report contamination uncertainty in inherited checkpoints.
-- Use normal branches, focused commits, reviewable PRs and ordinary merge commits. Respect protection and required checks; verify the exact PR head before merging. Do not force-push or rewrite history.
-- Continue autonomously through authorized research, documentation, small tools and fixes. Do not request routine approvals or stop after each milestone.
-- Never spend money, activate paid services, launch substantial GPU training, accept external agreements or publish restricted data without explicit authorization.
-- Keep weights, videos and dataset payloads out of GitHub and the owner's personal computer. Persist authorized data in private Hugging Face repositories within verified quotas; process temporarily on remote compute and clean it up.
-- Preserve evidence and unresolved questions. A successful generation or training run is not proof of quality improvement. No leadership claim without equivalent, independently verifiable evaluation.
-- Use rtk as a shell prefix when installed. Do not install global tools or change global configuration for routine research.
+- Resume from the live default branch, issues/PRs, exactHEAD and policies. Read CURRENT_STATUS, MASTER_PLAN, DECISION_LOG and evidence/dataset/experiment registries. Never invent prior work or treat a proposed dataset version as an existing release.
+- Use primary sources with access dates and immutable model/code revisions. Classify exact claims as VERIFIED, STRONGLY SUPPORTED, PRELIMINARY, UNVERIFIED or CONTRADICTED, with origin separately identified. Source verification and recomputed publisher metadata are not independent model performance.
+- Never fabricate tool output, dataset rights, training results, benchmark scores, cost measurements or leadership claims. Preserve failed requests and uncertainties; use lawful alternatives to unavailable sources.
+- Read current REA requirements before use. Prefer direct source analysis for complete Python code. Record actual tool version, targetSHA, commands, output hashes/excerpts, source corroboration, scope and blind spots. Static findings do not prove runtime behavior.
+- Separate code, weights, metadata, asset, caption/teacher, music, likeness, privacy and redistribution rights. Public download or Apache/MIT code is not asset clearance. Quarantine uncertain inputs; no training admission without documented conditions and authorized human review.
+- Exclude benchmark test tasks, instructions, verifiers and trajectories from training. h_cua_perf is serving replay, not SFT gold. Split by source/image/identity/story/app/template groups before augmentation; disclose inherited contamination uncertainty.
+- Use branches, focused commits, reviewablePRs and ordinary merge commits. No force push or history rewrite. Check applicable required checks and exact PRhead immediately before merging; verify canonical tree afterwards.
+- Run appropriate offline source/schema/manifest/link/consistency checks. Tests must validate actual tools or workflows; never create fakeGPU/E2E evidence. Record actual review scopes; host-agent delegation is not independentAIreview.
+- Continue autonomously through authorized research, documentation, smalltools and fixes. Do not ask for routine continuation or repeated authorization already provided. Stop only dependent unauthorized actions while progressing independent work.
+- Never spend money, activate paid services, launch substantialGPUtraining, call paidinference, accept external agreements or publish private/restricteddata without explicitauthorization.
+- Keep weights/videos/trainingdatasets out ofGitHub and the personalcomputer. Persist approvedpayloads in privateHFwithin verifiedquota;process onremote ephemeralworkers, uploadverifiedcommits/hashes and clean only confirmedscratchpaths. Preserveauthorizedremotebackups/provenance.
+- Use genuineREA/Jev/OCR/Graft/PStack capabilities whereapplicable; checkversion/compatibility/cost first. No CodeRabbit,Qodo,Cubic orcommercialreview service. Avoid globaltool/config changes.
+- Use `rg` first forsearch and `rtk` shellprefix whereinstalled. OnWindows use one shell/nativepath operations and verify resolvedtargets before recursive deletion/moves.
+- Update currentstatus, validationrecord andexperimentregistry after realwork. A successfulload,lowtrainingloss oronegoodoutput is notproof ofquality. Release/record claims require matchedsealed evaluation andindependentreplication.

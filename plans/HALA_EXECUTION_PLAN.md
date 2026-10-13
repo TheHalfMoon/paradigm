@@ -1,0 +1,13 @@
+# Hala execution sequence
+
+Hala follows the first Plume qualification and specialization gate for paid execution. Zero-cost task and harness specification may proceed in parallel. The first Hala objective is verified task completion in Aladdin's actual authority architecture, not a click-only model.
+
+1. Pin synthetic browser and Windows app fixtures, rights and group-disjoint train/dev/test tasks. Each task specifies goal, initial state, allowed capabilities, exact postcondition, time/step limit and recovery cases. Seed/golden/near-miss solvers must discriminate valid from invalid outcomes. Never use OSWorld or Hcompany benchmark trajectories as training data.
+2. Define an untrusted typed proposal adapter compatible with Aladdin's existing action vocabulary and observation generations. Use its actual local policy/approval/lease semantics in mocks; do not claim an Aladdin implementation exists. Prefer qualified DOM/UIA semantic methods; visual coordinates are bounded fallback.
+3. Qualify frozen Qwen3.5-4B, Qwen2-VL-2B, ShowUI-2B and browser Fara1.5-4B on the [first experiment](HALA_FLASH_FIRST_EXPERIMENT.md). Run minimal-loop versus deterministic-harness ablation before training. Qualify Holo4 Pro on approved hardware and identical task/verifier set. Record complete-task success, safety, p50/p95/p99 and cost per success.
+4. Only if a specific grounding deficit persists, conduct a rights-cleared 100–200 image pilot and controlled single-versus-two-LoRA comparison. Expand to cleared DragOn train subsets or fresh verified success/recovery trajectories only after learning curves and unseen-app results justify it. Holo4 PEFT target coverage, optimizer, save/reload and MoE/vision kernels need a separate GPU qualification.
+5. Compare Flash-only, Pro-only and routed system under equal policies and budgets. Route by task class, tool availability, state freshness, calibrated uncertainty and observed cost/success. Do not allow a model or router to grant itself authority. Reject a hybrid that adds cost or loses task success.
+
+[Readiness gates](HALA_READINESS_GATES.md), [task factory](../research/hala/TASK_FACTORY.md), [Aladdin interface](../research/hala/HALA_FOR_ALADDIN.md), [benchmarks](../research/hala/BENCHMARKS.md) and [evaluation protocol](../benchmarks/EVALUATION_PROTOCOL.md) provide details. No actual model load, training, Aladdin integration or benchmark run has occurred.
+
+\n

@@ -1,0 +1,116 @@
+{
+  "row_count": 7366,
+  "unique_ids": 7366,
+  "unique_model_benchmark_task_run": 7366,
+  "groups": [
+    {
+      "model": "Holo4 27B",
+      "benchmark": "Agents' Last Exam",
+      "rows": 104,
+      "unique_tasks": 104,
+      "success_fraction": 0.21153846153846154,
+      "mean_score": 0.4564384052078826,
+      "median_duration_s": 2599.0754165
+    },
+    {
+      "model": "Holo4 27B",
+      "benchmark": "AndroidWorld",
+      "rows": 344,
+      "unique_tasks": 116,
+      "success_fraction": 0.8546511627906976,
+      "mean_score": 0.8575581395348837,
+      "median_duration_s": 123.777157
+    },
+    {
+      "model": "Holo4 27B",
+      "benchmark": "AutomationBench",
+      "rows": 1600,
+      "unique_tasks": 800,
+      "success_fraction": 0.58875,
+      "mean_score": 0.8703275099734351,
+      "median_duration_s": 198.094541
+    },
+    {
+      "model": "Holo4 27B",
+      "benchmark": "OSWorld",
+      "rows": 1096,
+      "unique_tasks": 368,
+      "success_fraction": 0.8503649635036497,
+      "mean_score": 0.8552405019383176,
+      "median_duration_s": 144.572644
+    },
+    {
+      "model": "Holo4 27B",
+      "benchmark": "OSWorld 2",
+      "rows": 106,
+      "unique_tasks": 106,
+      "success_fraction": 0.41509433962264153,
+      "mean_score": 0.6173192058918567,
+      "median_duration_s": 2046.0224934999999
+    },
+    {
+      "model": "Holo4 27B",
+      "benchmark": "PinchBench",
+      "rows": 429,
+      "unique_tasks": 143,
+      "success_fraction": 0.972027972027972,
+      "mean_score": 0.9471812358516905,
+      "median_duration_s": 128.113761
+    },
+    {
+      "model": "Holo4 35B A3B",
+      "benchmark": "Agents' Last Exam",
+      "rows": 105,
+      "unique_tasks": 105,
+      "success_fraction": 0.13333333333333333,
+      "mean_score": 0.3122550659623976,
+      "median_duration_s": 1035.873863
+    },
+    {
+      "model": "Holo4 35B A3B",
+      "benchmark": "AndroidWorld",
+      "rows": 347,
+      "unique_tasks": 116,
+      "success_fraction": 0.7752161383285303,
+      "mean_score": 0.7752161383285303,
+      "median_duration_s": 156.374939
+    },
+    {
+      "model": "Holo4 35B A3B",
+      "benchmark": "AutomationBench",
+      "rows": 1598,
+      "unique_tasks": 800,
+      "success_fraction": 0.5025031289111389,
+      "mean_score": 0.8091909711676779,
+      "median_duration_s": 106.2884315
+    },
+    {
+      "model": "Holo4 35B A3B",
+      "benchmark": "OSWorld",
+      "rows": 1102,
+      "unique_tasks": 368,
+      "success_fraction": 0.809437386569873,
+      "mean_score": 0.8136973836800251,
+      "median_duration_s": 47.183048
+    },
+    {
+      "model": "Holo4 35B A3B",
+      "benchmark": "OSWorld 2",
+      "rows": 106,
+      "unique_tasks": 106,
+      "success_fraction": 0.12264150943396226,
+      "mean_score": 0.30893672426982477,
+      "median_duration_s": 533.523548
+    },
+    {
+      "model": "Holo4 35B A3B",
+      "benchmark": "PinchBench",
+      "rows": 429,
+      "unique_tasks": 143,
+      "success_fraction": 0.9790209790209791,
+      "mean_score": 0.940494622380986,
+      "median_duration_s": 54.250389
+    }
+  ],
+  "interpretation": "Computed from publisher-released index metadata; not independently executed benchmark results. Repeated tasks and model runs are expected; never train on these tasks."
+}

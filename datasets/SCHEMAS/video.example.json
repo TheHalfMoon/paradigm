@@ -1,0 +1,66 @@
+{
+  "id": "example-camera-0001",
+  "example_only": true,
+  "dataset_version": "example-only-v0",
+  "source": {
+    "url": "urn:paradigm:synthetic-example",
+    "asset_id": "example-asset",
+    "creator": "Example author",
+    "group_id": "example-scene-family"
+  },
+  "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "rights": {
+    "status": "requires_review",
+    "license": "Unverified example",
+    "evidence_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "conditions_met": false,
+    "reviewer": "Example reviewer",
+    "training_allowed": false,
+    "redistribution_allowed": false,
+    "privacy_reviewed": false,
+    "music_reviewed": false
+  },
+  "caption": {
+    "subject": "A wooden cube",
+    "action": "Remains still on a table",
+    "camera_motion": "Clockwise orbit",
+    "lighting": "Soft side light",
+    "style": "Procedural render",
+    "events": [
+      {
+        "start_s": 0,
+        "end_s": 3.0625,
+        "description": "Camera orbits a stationary cube"
+      }
+    ]
+  },
+  "media": {
+    "width": 832,
+    "height": 480,
+    "fps": 16,
+    "duration_s": 3.0625,
+    "frames": 49,
+    "remote_path": "hf://datasets/OWNER/example@REV/clip.mp4"
+  },
+  "audio": {
+    "present": false,
+    "license": "No audio",
+    "sample_rate": 0,
+    "sync_reviewed": false
+  },
+  "quality_scores": {
+    "sharpness": 0,
+    "flow_mean": 0,
+    "flicker": 0
+  },
+  "human_review": {
+    "accepted": false,
+    "reviewer": "Example reviewer",
+    "notes": "Metadata example only, no clip exists"
+  },
+  "split": "quarantine",
+  "benchmark_test": false,
+  "exclusion_reasons": [
+    "Example only; not training data"
+  ]
+}

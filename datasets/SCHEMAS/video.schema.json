@@ -1,0 +1,309 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "example_only": {
+      "type": "boolean"
+    },
+    "dataset_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "asset_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "creator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "group_id": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "url",
+        "asset_id",
+        "creator",
+        "group_id"
+      ],
+      "additionalProperties": false
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "rights": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "approved_under_conditions",
+            "requires_review",
+            "research_only",
+            "excluded"
+          ]
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "conditions_met": {
+          "type": "boolean"
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "training_allowed": {
+          "type": "boolean"
+        },
+        "redistribution_allowed": {
+          "type": "boolean"
+        },
+        "privacy_reviewed": {
+          "type": "boolean"
+        },
+        "music_reviewed": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "status",
+        "license",
+        "evidence_sha256",
+        "conditions_met",
+        "reviewer",
+        "training_allowed",
+        "redistribution_allowed",
+        "privacy_reviewed",
+        "music_reviewed"
+      ],
+      "additionalProperties": false
+    },
+    "caption": {
+      "type": "object",
+      "properties": {
+        "subject": {
+          "type": "string",
+          "minLength": 1
+        },
+        "action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "camera_motion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lighting": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "minLength": 1
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "start_s": {
+                "type": "number",
+                "minimum": 0
+              },
+              "end_s": {
+                "type": "number",
+                "minimum": 0
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "start_s",
+              "end_s",
+              "description"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "subject",
+        "action",
+        "camera_motion",
+        "lighting",
+        "style",
+        "events"
+      ],
+      "additionalProperties": false
+    },
+    "media": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "fps": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "duration_s": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "frames": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "remote_path": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "width",
+        "height",
+        "fps",
+        "duration_s",
+        "frames",
+        "remote_path"
+      ],
+      "additionalProperties": false
+    },
+    "audio": {
+      "type": "object",
+      "properties": {
+        "present": {
+          "type": "boolean"
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sample_rate": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sync_reviewed": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "present",
+        "license",
+        "sample_rate",
+        "sync_reviewed"
+      ],
+      "additionalProperties": false
+    },
+    "quality_scores": {
+      "type": "object",
+      "properties": {
+        "sharpness": {
+          "type": "number",
+          "minimum": 0
+        },
+        "flow_mean": {
+          "type": "number",
+          "minimum": 0
+        },
+        "flicker": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "sharpness",
+        "flow_mean",
+        "flicker"
+      ],
+      "additionalProperties": false
+    },
+    "human_review": {
+      "type": "object",
+      "properties": {
+        "accepted": {
+          "type": "boolean"
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "accepted",
+        "reviewer",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "split": {
+      "type": "string",
+      "enum": [
+        "train",
+        "validation",
+        "test",
+        "quarantine"
+      ]
+    },
+    "benchmark_test": {
+      "type": "boolean"
+    },
+    "exclusion_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "id",
+    "example_only",
+    "dataset_version",
+    "source",
+    "sha256",
+    "rights",
+    "caption",
+    "media",
+    "audio",
+    "quality_scores",
+    "human_review",
+    "split",
+    "benchmark_test",
+    "exclusion_reasons"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/TheHalfMoon/paradigm/video.schema.json",
+  "title": "Plume video provenance record"
+}

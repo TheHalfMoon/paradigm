@@ -1,0 +1,22 @@
+# Hala adaptation strategy and readiness
+
+**13 October refinement:** The Holo adaptation lane below is conditional on frozen-model/harness evidence. For Flash, first compare released Qwen3.5-4B, Qwen2-VL-2B, ShowUI-2B and browser Fara1.5-4B. A small rights-cleared 100–200 image pilot tests a diagnosed grounding deficit; one multitask LoRA is the control for separate brain/eye LoRAs. T4 six-hour feasibility, QLoRA kernels, FP16 precision, saved adapter parity and end-to-end gains are unmeasured. The [small-model audit](SMALL_MODEL_FEASIBILITY.md) and [experiment](../../plans/HALA_FLASH_FIRST_EXPERIMENT.md) are controlling gates.
+
+Base: Apache Holo 4-35B-A3B at pinned revision. Context/parser architecture inspected; no GPU model load or finetuning was performed. [Holo 4 analysis](HOLO4_DEEP_DIVE.md) and [data forensics](DATASET_FORENSICS.md) constrain the training lane.
+
+First improve the harness on fresh tasks. Then isolate a demonstrated deficit: drag grounding uses cleared DragOn train examples; repeated work flow/recovery errors use fresh verified trajectories. Maintain held-out app/template/image groups. Do not convert benchmark trajectories or h_cua_perf messages into SFT targets.
+
+| Approach | Compatibility evidence | Missing qualification / cost consequence |
+|---|---|---|
+| Transformers model load | Config Qwen 3_5 Moe For Conditional Generation, hybrid attention, transformers 5.6.2 metadata | Install exact candidate version and inspect class/processor/chat template, vision layout and tool formatting. Version in config is an anchor, not proof all devices support it |
+| BF16 LoRA via PEFT | Standard linear attention/projection concept | Actual MoE expert tensors may be raw parameters, requiring target_parameters support instead of generic target_modules. Enumerate trainable tensor names/shapes; do not silently skip experts |
+| QLoRA4 bit | Potential generalVLM memory reduction | Hybrid/MoE/vision kernels, quantized expert targeting and export not validated. Use as alternative only after loss/gradient/eval/export qualification |
+| Full SFT | ~35B frozen/full model weights;16 bytes/parameter state estimate~560GB before activations | Distributed optimizer/sharding required;3 Bactive does not lower resident optimizer to 48GB. Defer |
+| Async RL | Hcompany describes prime-rl and interface LoRA experts | Must qualify inference/training engine architecture support, deterministic environments, reward-verifier quality, trajectory stale-policy handling and safety penalties. No exact official reproducible Holo 4 recipe available |
+| Two adapters / merge | Vendor equal-weight mixture concept | Evaluate each expert, routing and merged result at identical budgets; averaging independent adapter factors can be mathematically wrong unless effective weight deltas are merged correctly |
+
+HA02 grounding pilot:10–30 kclearedtrain drag records, image/template held-outs, LoRA rank 16/32 candidate (selected after trainable topology audit), BF161xH10080GB with CPU offload or 2x 80GB if qualification needs;100–300 optimizer steps smoke followed by 1–3 epochs only if evaluation improves. Resources are assumptions;70GBbase leaves little headroom on 80GB without offload/quantization. Smaller Fara 9 Bbrowserpilot potentially fits 1x 48GB, but desktop coverage is absent. Exact recipe is a P6 readiness deliverable, not falsely advertised runnable today.
+
+HA03 fresh trajectory SFT:500–2,000 successful trajectories balanced across apps/actions, mask loss on screenshot/tool results/instruction; train authorized model actions and bounded summaries. Keep failed actions in separate recovery/preference pool after labeling. Truncate by coherent episodes; preserve goal/tool schema and final result. Compare frozen Holo+harness to same harness+adapter with equal budgets, paired repeats and fresh app-generalization lane. Scale only≥5 percentage-point task-success gain with lower 95%paired CI>0, no unauthorized-state or unseen-app regression.
+
+HA04 async RL deferred until verifier false positives controlled, held-out performance not deteriorating, per-rollout costs measured and an approved budget exists. Track reward hacking, rollout duplicates, environment drift, long task time out and policy version. Failed golden/near-miss gates stop collection and RL. End-to-end generalization and safety dominate scalar reward. Never state that matching 127 Btokens is necessary or affordable for Hala's first gain.

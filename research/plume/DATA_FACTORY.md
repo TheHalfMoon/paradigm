@@ -1,0 +1,22 @@
+# Plume Data Factory v 1
+
+Sequence: **Discover → Validate rights → Ingest remotely → Deduplicate → Detect shots → Filter → Caption → Score → Review → Split → Package → Version → Publish privately**. Discovery never activates paid licenses or accepts gated terms. [Rights registry](../../datasets/DATASET_REGISTRY.md), [provenance policy](../../datasets/PROVENANCE_POLICY.md) and [quality standards](../../datasets/QUALITY_STANDARDS.md) are pipeline contracts.
+
+Control plane in GitHub holds code/config schema and public research; private HF repositories hold approved asset/caption/provenance manifests, payload shards and checkpoint lineage. Remote CPU/GPU workers use least-privilege tokens, episodic scratch, deterministic versions and resumable uploads. Proposed names are `OWNER/plume-camera-v0-1` and `OWNER/plume-checkpoints-private`; OWNER is unresolved actual HF identity, no reposwerecreated. Resolve capacity/rights/access before the first ingest.
+
+Smallest toolchain: FFmpeg/ffprobe for decode/transcode/timestamps, OpenCV for frame QA/Farneback flow, PySceneDetect for cuts, stdlibSHA256 and manifest validation. Add pHash for frames andoptionalvideoembeddings when exact dedup misses reencodes; embeddingsrequirea model license+remote GPU qualification. Inspect FFmpeg build flags: LGPL/GPL codec choices and codec patents have deployment implications; do not label all FFmpeg binaries permissive. OpenCV/PySceneDetect licenses and chosen versions get a remote envlock. No heavy vision pipeline was installed locally.
+
+1. Source adapter records URL/rights holder/candidate license and stores public metadata only until rights decision.
+2. Ingest approved files with SHA checks, preserve original timestamps/audio. Scan for PII/foreign copyright/watermarks; maintain quarantine.
+3. Dedup original SHA then sampled frame pHash/temporal embedding clusters. Compare groups with holdout/benchmark source IDs. Do not dedup independently within each split and miss cross-split overlap.
+4. Cut shots at detected boundaries and review false cuts; preserve parent/time interval. Trim 3.0625s 49 frames with outcrossing cut. Do not resample variable FPS by assuming frame count equals duration; use timestamps.
+5. Apply cheap decode/exposure/sharpness/stutter checks; motion flow needs camera compensation. RAFTorlearnedVQA is optional, not MVP prerequisite.
+6. Captions use exact owned render metadata first, then licensedVLM-assisted English subject/action/camera/temporal events plus human verification. LocalopenVLMnotautomaticallyauthorizedteacher; exact weight/output term review. Label uncertain action/camera rather than hallucinate.
+7. Scores retain single-axis values and raw statistics rather than opaque all-in-one quality. Stratify camera/static/action; avoid removing all complex physics failure examples needed for learning.
+8. Human review signs rights, camera/event caption and visual quality. Stable group splits before augment; target pilot 1000 train/100 dev/100 sealed.
+9. Package bounded tar/WebDataset shards or Parquet metadata+separate videos, per file hash manifest, attributions and approved storage path. Dataset card and private HF commit identify every release; never put videos in GitHub.
+10. Verify selective retrieval and cache build against commit before upload complete. Cachekeys include asset SHA+time crop+frame cadence+resolution+VAE/T5 revision+caption SHA; quarantined/takeddowndata invalidates derived cache lineage.
+
+Schema [video.schema.json](../../datasets/SCHEMAS/video.schema.json) include sID, source/file/license evidence, subject/action, camera, event times, lighting/style, media/audio, quality scores, human review, split/exclusion/dataset version and benchmark-use flag. [Example](../../datasets/SCHEMAS/video.example.json) is synthetic **metadata-only**, not an actual approved training clip. [Manifest check tool](../../tools/research_validation/README.md) rejects benchmark training, same group across splits and missing rights review. It validates record structure/policy, not decoding, perceptual quality or legal truth.
+
+Measure yield and CPU/remote GPU hour cost per accepted clip separately from model training.1,200×3.0625s×20 Mbps≈9.19GBdecimalencodedstorage; retain masters, caches and checkpoints separately. Intermediate 30k×6s×20 Mbps≈450GB, large 300k≈4.5TB before copies/caches. Use measured bitrate and cache expansion after pilot; don'tassumecompressionoffsets latent tensor storage.

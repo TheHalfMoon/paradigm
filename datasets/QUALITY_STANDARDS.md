@@ -1,0 +1,11 @@
+# Data quality admission standards
+
+Initial thresholds are pre-registered pilot policies, not derived universal quality constants. Validate them against human reviews before trusting automated filters.
+
+Video: complete de cod able single shot; verified 16 fps 49 frame trainer representation at 832x 480 without up scaling; preserve original master metadata; reject missing frames, corruption, unexplained watermark/PII, abrupt cut, heavy persistent compression, and captions contradicting visible events. Rights uncertainty rejects regardless of aesthetics. Original FPS changes are explicit resampling, not silently treated as native. Preserve audio originally, strip for silentT2 Vtrainingonly with transformation record.
+
+Scores record raw sharpness/exposure/duplicate-frame fractions, optical flow distribution and scene-cut confidence with tool revision. Motion thresholds are calibrated per camera/action class; panning/static story beats must not be removed because a global metric prefers action. Human checks review camera direction, event order, subject identity, anatomy, physical interaction, compression and caption fidelity. Keep reject reasons and cohort counts so review bias is visible.
+
+Pilot review 100%rights+captions/camera labels; double-review 10%random plus all borderline items, resolve disagreement. Larger pool review stratified≥100 per new source/class and all outliers; estimate acceptance/false acceptance CI before reducing audit coverage. A discovered systematic rights/privacy defect stops that source, invalidates related admission and triggers lineage review. A score alone never substitutes human rights review.
+
+Hala: screenshot/action time alignment, view port/scale validity, start/end drag order, verifier/golden/near-miss passes and unauthorized-side effect checks. Group-split repeat screenshots/templates and retain app/version/seed. Exclude failed/gold benchmark trajectories from SFT; generated successful trajectory requires validated state outcome and reasonable human trace audit. Trainable context must not include verifier privileged state. Dataset version quality report includes counts by reject reason, domain, split and group overlap.

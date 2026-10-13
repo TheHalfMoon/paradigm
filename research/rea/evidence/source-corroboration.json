@@ -1,0 +1,53 @@
+{
+  "input.ts": {
+    "sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+    "bytes": 2926,
+    "interesting_source_lines": [
+      {
+        "line": 31,
+        "text": "await this._page._channel.keyboardDown({ key }, kNoTimeout);"
+      },
+      {
+        "line": 35,
+        "text": "await this._page._channel.keyboardUp({ key }, kNoTimeout);"
+      },
+      {
+        "line": 39,
+        "text": "await this._page._channel.keyboardInsertText({ text }, kNoTimeout);"
+      },
+      {
+        "line": 43,
+        "text": "await this._page._channel.keyboardType({ text, ...options }, kNoTimeout);"
+      },
+      {
+        "line": 47,
+        "text": "await this._page._channel.keyboardPress({ key, ...options }, kNoTimeout);"
+      },
+      {
+        "line": 59,
+        "text": "await this._page._channel.mouseMove({ x, y, ...options }, kNoTimeout);"
+      },
+      {
+        "line": 63,
+        "text": "await this._page._channel.mouseDown({ ...options }, kNoTimeout);"
+      },
+      {
+        "line": 67,
+        "text": "await this._page._channel.mouseUp(options, kNoTimeout);"
+      },
+      {
+        "line": 71,
+        "text": "await this._page._channel.mouseClick({ x, y, ...options }, kNoTimeout);"
+      },
+      {
+        "line": 81,
+        "text": "await this._page._channel.mouseWheel({ deltaX, deltaY }, kNoTimeout);"
+      }
+    ]
+  },
+  "timeoutSettings.ts": {
+    "sha256": "5a4b0c7dfe3a9f0bfee321732265a8fefd3e101d74517eef32a3ae079ba70ce8",
+    "bytes": 3321,
+    "interesting_source_lines": []
+  }
+}
