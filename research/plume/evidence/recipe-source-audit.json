@@ -1,0 +1,806 @@
+{
+  "scope": "Static parser/source inspection; not GPU, import, dependency-resolution or argument-interaction validation",
+  "musubi_commit": "f8a1b03794a49239a3539015075f5123d6c07d66",
+  "diffsynth_commit": "acf2ad29c65f436633f57beec1caaa1296760331",
+  "flags": {
+    "--task": [
+      {
+        "path": "src/musubi_tuner/hidream_o1_train_network.py",
+        "line": 948
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_train_network.py",
+        "line": 467
+      },
+      {
+        "path": "src/musubi_tuner/kandinsky5_generate_video.py",
+        "line": 28
+      },
+      {
+        "path": "src/musubi_tuner/kandinsky5_train_network.py",
+        "line": 911
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_cache_latents.py",
+        "line": 515
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_cache_text_encoder_outputs.py",
+        "line": 246
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_generate_video.py",
+        "line": 1179
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_train_network.py",
+        "line": 1731
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 72
+      },
+      {
+        "path": "src/musubi_tuner/wan_train_network.py",
+        "line": 723
+      }
+    ],
+    "--dit": [
+      {
+        "path": "src/musubi_tuner/flux_2_generate_image.py",
+        "line": 49
+      },
+      {
+        "path": "src/musubi_tuner/flux_kontext_generate_image.py",
+        "line": 50
+      },
+      {
+        "path": "src/musubi_tuner/fpack_generate_video.py",
+        "line": 106
+      },
+      {
+        "path": "src/musubi_tuner/hidream_o1_cache_text_encoder_outputs.py",
+        "line": 40
+      },
+      {
+        "path": "src/musubi_tuner/hidream_o1_generate_image.py",
+        "line": 20
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 62
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 427
+      },
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1460
+      },
+      {
+        "path": "src/musubi_tuner/ideogram4_generate_image.py",
+        "line": 20
+      },
+      {
+        "path": "src/musubi_tuner/kandinsky5_generate_video.py",
+        "line": 46
+      },
+      {
+        "path": "src/musubi_tuner/krea2_generate_image.py",
+        "line": 251
+      },
+      {
+        "path": "src/musubi_tuner/merge_lora.py",
+        "line": 16
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_generate_video.py",
+        "line": 1185
+      },
+      {
+        "path": "src/musubi_tuner/qwen_image_generate_image.py",
+        "line": 56
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 77
+      },
+      {
+        "path": "src/musubi_tuner/zimage_generate_image.py",
+        "line": 46
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 761
+      }
+    ],
+    "--dataset_config": [
+      {
+        "path": "src/musubi_tuner/cache_latents.py",
+        "line": 394
+      },
+      {
+        "path": "src/musubi_tuner/cache_text_encoder_outputs.py",
+        "line": 221
+      },
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1228
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 42
+      }
+    ],
+    "--sdpa": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1236
+      },
+      {
+        "path": "src/musubi_tuner/kandinsky5_generate_video.py",
+        "line": 57
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 51
+      }
+    ],
+    "--mixed_precision": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1291
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 197
+      }
+    ],
+    "--optimizer_type": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1382
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 309
+      }
+    ],
+    "--learning_rate": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1396
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 323
+      }
+    ],
+    "--gradient_checkpointing": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1282
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 183
+      }
+    ],
+    "--network_module": [
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 551
+      }
+    ],
+    "--network_dim": [
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 554
+      }
+    ],
+    "--network_alpha": [
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 560
+      }
+    ],
+    "--timestep_sampling": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1496
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 443
+      }
+    ],
+    "--discrete_flow_shift": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1503
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 463
+      }
+    ],
+    "--min_timestep": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1540
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 500
+      }
+    ],
+    "--max_timestep": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1546
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 506
+      }
+    ],
+    "--preserve_distribution_shape": [
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 512
+      }
+    ],
+    "--max_train_steps": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1263
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 164
+      }
+    ],
+    "--save_every_n_steps": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1571
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 630
+      }
+    ],
+    "--seed": [
+      {
+        "path": "src/musubi_tuner/flux_2_generate_image.py",
+        "line": 93
+      },
+      {
+        "path": "src/musubi_tuner/flux_kontext_generate_image.py",
+        "line": 74
+      },
+      {
+        "path": "src/musubi_tuner/fpack_generate_video.py",
+        "line": 180
+      },
+      {
+        "path": "src/musubi_tuner/hidream_o1_generate_image.py",
+        "line": 29
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 111
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 458
+      },
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1281
+      },
+      {
+        "path": "src/musubi_tuner/ideogram4_generate_image.py",
+        "line": 51
+      },
+      {
+        "path": "src/musubi_tuner/kandinsky5_generate_video.py",
+        "line": 44
+      },
+      {
+        "path": "src/musubi_tuner/krea2_generate_image.py",
+        "line": 268
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_generate_video.py",
+        "line": 1303
+      },
+      {
+        "path": "src/musubi_tuner/qwen_image_generate_image.py",
+        "line": 116
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 119
+      },
+      {
+        "path": "src/musubi_tuner/zimage_generate_image.py",
+        "line": 80
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 182
+      }
+    ],
+    "--output_dir": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1554
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 613
+      }
+    ],
+    "--output_name": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1557
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 616
+      }
+    ],
+    "--gradient_accumulation_steps": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1285
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 191
+      }
+    ],
+    "--max_data_loader_n_workers": [
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1270
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 171
+      }
+    ],
+    "--vae": [
+      {
+        "path": "src/musubi_tuner/cache_latents.py",
+        "line": 396
+      },
+      {
+        "path": "src/musubi_tuner/flux_2_generate_image.py",
+        "line": 53
+      },
+      {
+        "path": "src/musubi_tuner/flux_kontext_generate_image.py",
+        "line": 51
+      },
+      {
+        "path": "src/musubi_tuner/fpack_generate_video.py",
+        "line": 110
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 66
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 434
+      },
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1463
+      },
+      {
+        "path": "src/musubi_tuner/ideogram4_generate_image.py",
+        "line": 40
+      },
+      {
+        "path": "src/musubi_tuner/kandinsky5_generate_video.py",
+        "line": 47
+      },
+      {
+        "path": "src/musubi_tuner/krea2_generate_image.py",
+        "line": 252
+      },
+      {
+        "path": "src/musubi_tuner/qwen_image_generate_image.py",
+        "line": 62
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 87
+      },
+      {
+        "path": "src/musubi_tuner/zimage_generate_image.py",
+        "line": 50
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 762
+      }
+    ],
+    "--t5": [
+      {
+        "path": "src/musubi_tuner/wan_cache_text_encoder_outputs.py",
+        "line": 101
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 90
+      },
+      {
+        "path": "src/musubi_tuner/wan_train_network.py",
+        "line": 725
+      }
+    ],
+    "--batch_size": [
+      {
+        "path": "src/musubi_tuner/cache_latents.py",
+        "line": 401
+      },
+      {
+        "path": "src/musubi_tuner/cache_text_encoder_outputs.py",
+        "line": 223
+      }
+    ],
+    "--video_size": [
+      {
+        "path": "src/musubi_tuner/fpack_generate_video.py",
+        "line": 148
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 106
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 453
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_generate_video.py",
+        "line": 1243
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 114
+      }
+    ],
+    "--video_length": [
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 107
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 454
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_generate_video.py",
+        "line": 1252
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 115
+      }
+    ],
+    "--infer_steps": [
+      {
+        "path": "src/musubi_tuner/flux_2_generate_image.py",
+        "line": 91
+      },
+      {
+        "path": "src/musubi_tuner/flux_kontext_generate_image.py",
+        "line": 72
+      },
+      {
+        "path": "src/musubi_tuner/fpack_generate_video.py",
+        "line": 178
+      },
+      {
+        "path": "src/musubi_tuner/hidream_o1_generate_image.py",
+        "line": 28
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 109
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 456
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_generate_video.py",
+        "line": 1296
+      },
+      {
+        "path": "src/musubi_tuner/qwen_image_generate_image.py",
+        "line": 114
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 117
+      },
+      {
+        "path": "src/musubi_tuner/zimage_generate_image.py",
+        "line": 78
+      }
+    ],
+    "--flow_shift": [
+      {
+        "path": "src/musubi_tuner/flux_2_generate_image.py",
+        "line": 112
+      },
+      {
+        "path": "src/musubi_tuner/flux_kontext_generate_image.py",
+        "line": 90
+      },
+      {
+        "path": "src/musubi_tuner/fpack_generate_video.py",
+        "line": 218
+      },
+      {
+        "path": "src/musubi_tuner/hidream_o1_generate_image.py",
+        "line": 31
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 126
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 478
+      },
+      {
+        "path": "src/musubi_tuner/qwen_image_generate_image.py",
+        "line": 122
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 198
+      },
+      {
+        "path": "src/musubi_tuner/zimage_generate_image.py",
+        "line": 86
+      }
+    ],
+    "--guidance_scale": [
+      {
+        "path": "src/musubi_tuner/flux_2_generate_image.py",
+        "line": 69
+      },
+      {
+        "path": "src/musubi_tuner/fpack_generate_video.py",
+        "line": 188
+      },
+      {
+        "path": "src/musubi_tuner/hidream_o1_generate_image.py",
+        "line": 30
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 115
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 459
+      },
+      {
+        "path": "src/musubi_tuner/hv_train.py",
+        "line": 1495
+      },
+      {
+        "path": "src/musubi_tuner/krea2_generate_image.py",
+        "line": 261
+      },
+      {
+        "path": "src/musubi_tuner/qwen_image_generate_image.py",
+        "line": 79
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 129
+      },
+      {
+        "path": "src/musubi_tuner/zimage_generate_image.py",
+        "line": 69
+      },
+      {
+        "path": "src/musubi_tuner/training/parser_common.py",
+        "line": 440
+      }
+    ],
+    "--guidance_scale_high_noise": [
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 132
+      }
+    ],
+    "--timestep_boundary": [
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 123
+      },
+      {
+        "path": "src/musubi_tuner/wan_train_network.py",
+        "line": 741
+      }
+    ],
+    "--dit_high_noise": [
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 78
+      },
+      {
+        "path": "src/musubi_tuner/wan_train_network.py",
+        "line": 740
+      }
+    ],
+    "--lora_weight": [
+      {
+        "path": "src/musubi_tuner/flux_2_generate_image.py",
+        "line": 57
+      },
+      {
+        "path": "src/musubi_tuner/flux_kontext_generate_image.py",
+        "line": 56
+      },
+      {
+        "path": "src/musubi_tuner/fpack_generate_video.py",
+        "line": 117
+      },
+      {
+        "path": "src/musubi_tuner/hidream_o1_generate_image.py",
+        "line": 53
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 87
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 440
+      },
+      {
+        "path": "src/musubi_tuner/ideogram4_generate_image.py",
+        "line": 27
+      },
+      {
+        "path": "src/musubi_tuner/kandinsky5_generate_video.py",
+        "line": 62
+      },
+      {
+        "path": "src/musubi_tuner/krea2_generate_image.py",
+        "line": 327
+      },
+      {
+        "path": "src/musubi_tuner/merge_lora.py",
+        "line": 18
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_generate_video.py",
+        "line": 1359
+      },
+      {
+        "path": "src/musubi_tuner/qwen_image_generate_image.py",
+        "line": 67
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 93
+      },
+      {
+        "path": "src/musubi_tuner/zimage_generate_image.py",
+        "line": 54
+      }
+    ],
+    "--lora_multiplier": [
+      {
+        "path": "src/musubi_tuner/flux_2_generate_image.py",
+        "line": 58
+      },
+      {
+        "path": "src/musubi_tuner/flux_kontext_generate_image.py",
+        "line": 57
+      },
+      {
+        "path": "src/musubi_tuner/fpack_generate_video.py",
+        "line": 118
+      },
+      {
+        "path": "src/musubi_tuner/hidream_o1_generate_image.py",
+        "line": 54
+      },
+      {
+        "path": "src/musubi_tuner/hv_1_5_generate_video.py",
+        "line": 88
+      },
+      {
+        "path": "src/musubi_tuner/hv_generate_video.py",
+        "line": 441
+      },
+      {
+        "path": "src/musubi_tuner/ideogram4_generate_image.py",
+        "line": 30
+      },
+      {
+        "path": "src/musubi_tuner/kandinsky5_generate_video.py",
+        "line": 63
+      },
+      {
+        "path": "src/musubi_tuner/krea2_generate_image.py",
+        "line": 330
+      },
+      {
+        "path": "src/musubi_tuner/merge_lora.py",
+        "line": 19
+      },
+      {
+        "path": "src/musubi_tuner/minimax_h3_generate_video.py",
+        "line": 1360
+      },
+      {
+        "path": "src/musubi_tuner/qwen_image_generate_image.py",
+        "line": 68
+      },
+      {
+        "path": "src/musubi_tuner/wan_generate_video.py",
+        "line": 94
+      },
+      {
+        "path": "src/musubi_tuner/zimage_generate_image.py",
+        "line": 55
+      }
+    ]
+  },
+  "missing": [],
+  "files": {
+    "musubi-tuner/pyproject.toml": {
+      "sha256": "08b4bc96341913d46254fc002fbc2d71f1ef4d9f3ce9d369ad5d96f12e4759ce",
+      "bytes": 7118
+    },
+    "musubi-tuner/src/musubi_tuner/wan_train_network.py": {
+      "sha256": "83068e6198e097e711c580d659268f4358ac6f1d6d7b74eeef2a3abf430c96cc",
+      "bytes": 35265
+    },
+    "musubi-tuner/src/musubi_tuner/networks/lora_wan.py": {
+      "sha256": "6425745f3b30084d1b853442227f5e9c5a041cba6cbf4000541d859f7ac64395",
+      "bytes": 1704
+    },
+    "musubi-tuner/docs/dataset_config.md": {
+      "sha256": "d1e4d0fb3c645f7aa342dd31ae1976ff74f1c1ef338b87b1ca1e79a86acd8ea0",
+      "bytes": 49660
+    },
+    "musubi-tuner/docs/wan.md": {
+      "sha256": "3abd24093fbf365d2fe09c68f3a0bfa7aabceedc529d2790ad66ef6a09fddf8c",
+      "bytes": 44814
+    },
+    "DiffSynth-Studio/examples/wanvideo/model_training/train.py": {
+      "sha256": "47d921689b6f5c4c0473bec254fb15de23b978b98b597adc772d9654aef0795f",
+      "bytes": 10651
+    },
+    "DiffSynth-Studio/examples/wanvideo/model_training/lora/Wan2.2-T2V-A14B.sh": {
+      "sha256": "db7e98a300c37a29011c28b452a7de4805fb18468cb7d6f3b15014383b8829ed",
+      "bytes": 1911
+    },
+    "DiffSynth-Studio/diffsynth/diffusion/parsers.py": {
+      "sha256": "c08cdb47bbb849d77f01378602e1f149d21d477b20a07af975214678be6b08a7",
+      "bytes": 10889
+    },
+    "DiffSynth-Studio/diffsynth/diffusion/runner.py": {
+      "sha256": "3139843474906974263517f29d7fc1a39d07f8544d32e9dd6ad56316b6adca7e",
+      "bytes": 7785
+    }
+  }
+}

@@ -1,0 +1,16 @@
+# Fixed remote path binding. All clips are preprocessed to49frames,16fps,832x480.
+# Set actual privateHFcommit/asset hashes in the runmanifest before cache/training.
+[general]
+resolution = [832, 480]
+caption_extension = ".txt"
+batch_size = 1
+enable_bucket = false
+bucket_no_upscale = true
+
+[[datasets]]
+video_directory = "/remote/work/plume-camera-v0.1/train"
+cache_directory = "/remote/work/plume-camera-v0.1/cache-train"
+num_repeats = 1
+target_frames = [49]
+frame_extraction = "head"
+# No source_fps remapping: files already contain exact16fps cadence.

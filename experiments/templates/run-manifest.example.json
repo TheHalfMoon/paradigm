@@ -1,0 +1,21 @@
+{
+  "example_only": true,
+  "experiment_id": "PB01",
+  "status": "planned",
+  "model_revision": "c8c270b13ee05bfa474194ac9fb07a5868a97cea",
+  "trainer_commit": "f8a1b03794a49239a3539015075f5123d6c07d66",
+  "dataset_commit": null,
+  "environment_lock_sha256": null,
+  "weight_file_sha256": {},
+  "adapter_sha256": null,
+  "benchmark_manifest_sha256": null,
+  "approval_record": null,
+  "hardware": null,
+  "measured_peak_memory_gb": null,
+  "measured_gpu_hours": null,
+  "outputs": [],
+  "failures": [],
+  "quality_results": null,
+  "cost_actual_usd": null,
+  "notes": "Nulls are required bindings/results not yet produced; no execution may be represented by this example"
+}

@@ -1,0 +1,855 @@
+[
+  {
+    "source_output_file": "rea-playwright.json",
+    "output_sha256": "842ce4b75d179021e526ef45f5cb480ec5a1217de59eb9270f44448798c348ff",
+    "output_bytes": 45672925,
+    "tool": "rea-agents@6.4.0",
+    "target_commit": "d9f2fd3e2232ace8e317a84eda6cb86e25bcf49c",
+    "scope": "Complete Playwright client source directory; static graph coverage partial",
+    "evidence_id": "ev_29d4e66c270316c8f68fdd6c0e3c1f0dc3c5a970e48c20023268a0c4e51512cc",
+    "graph_id": "jag_d98edd6f4a2d3584eb827b75c172c02f237732b75bd381e582e55b7e75ef6bec",
+    "statistics": {
+      "relevant_files": 52,
+      "nested_asar_containers": 0,
+      "text_bytes_read": 546279,
+      "invalid_utf8_files": 0,
+      "parsed_javascript_files": 52,
+      "visited_ast_nodes": 79796,
+      "findings": 1328,
+      "modules": 0,
+      "parse_failures": 0
+    },
+    "coverage": {
+      "status": "partial",
+      "truncated": false,
+      "omitted_count": null,
+      "limits": [
+        {
+          "name": "javascript_analysis_parent_result_budget_bytes",
+          "value": 2069069800,
+          "unit": "bytes"
+        },
+        {
+          "name": "javascript_analysis_semantic_result_budget_bytes",
+          "value": 0,
+          "unit": "bytes"
+        },
+        {
+          "name": "javascript_analysis_worker_heap_limit_bytes",
+          "value": 1098907648,
+          "unit": "bytes"
+        },
+        {
+          "name": "javascript_analysis_worker_timeout_ms",
+          "value": 30000,
+          "unit": "milliseconds"
+        }
+      ]
+    },
+    "limitations": [
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Electron API identity follows proven lexical module aliases. Reassigned bindings, dynamic selections, and visibly overwritten namespace members are unresolved; missing findings do not establish absence. Arbitrary call side effects and runtime registration are not evaluated.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for webmcp.ts exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for worker.ts exceed the parent's result budget; complete static facts were retained on the file node",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+      "network.ts: Resource constraint during analyze_javascript_application: Semantic graph for network.ts exceeds the parent's remaining result budget; static and module facts were retained",
+      "page.ts: Resource constraint during analyze_javascript_application: Semantic graph for page.ts exceeds the parent's remaining result budget; static and module facts were retained",
+      "tracing.ts: Resource constraint during analyze_javascript_application: Semantic graph for tracing.ts exceeds the parent's remaining result budget; static and module facts were retained",
+      "waiter.ts: Resource constraint during analyze_javascript_application: Semantic graph for waiter.ts exceeds the parent's remaining result budget; static and module facts were retained",
+      "webmcp.ts: Resource constraint during analyze_javascript_application: webmcp.ts: Resource constraint during analyze_javascript_application: The parent reserved its remaining result capacity for static observations; semantic analysis of webmcp.ts was not started",
+      "worker.ts: Resource constraint during analyze_javascript_application: worker.ts: Resource constraint during analyze_javascript_application: The parent reserved its remaining result capacity for static observations; semantic analysis of worker.ts was not started"
+    ],
+    "selected_nodes": [
+      {
+        "node_id": "jag_node_0a70c2f9ce712a15a88753c79ace5e323b0f2b47d3d371b6752c9c8a1f70676c",
+        "kind": "javascript-module",
+        "identity": {
+          "strategy": "artifact-local-key",
+          "stability": "artifact-version",
+          "artifact_sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+          "namespace": "module-export",
+          "key": "[\"a8baa00fb918941d92e49b57aed67dca0f91eac801e927976dcbbf1909a386d7\",\"input.ts\",\"Keyboard\"]"
+        },
+        "observations": [
+          {
+            "label": "input.ts:Keyboard:return-shapes",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-return-shapes",
+              "module_path": "input.ts",
+              "exported_name": "Keyboard",
+              "callable_id": "callable:class:856:1602",
+              "callable_kind": "class",
+              "static_return_shapes": [],
+              "return_shape_coverage": {
+                "status": "complete",
+                "retained_return_sites": 0,
+                "omitted_return_sites": 0,
+                "omitted_fields": 0,
+                "omitted_property_coverage": 0,
+                "projection_complete": true
+              }
+            },
+            "evidence": {
+              "authority": "static-relationship-inference",
+              "state": "inferred",
+              "confidence": "high",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+                "sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "input.ts",
+                  "start": {
+                    "line": 23,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 49,
+                    "column": 1
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-export-return-shapes",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "No direct return value was retained; runtime return behavior remains unknown.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return shapes are inferred from inert syntax and do not prove runtime behavior.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Static syntax does not prove that this relationship executes at runtime.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_803f0872af2685700a81f86781b564dae81ffab7e2a475b98331ee51b9365c5c",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          },
+          {
+            "label": "input.ts:Keyboard",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-binding",
+              "module_path": "input.ts",
+              "relationship_kind": "export",
+              "exported_name": "Keyboard",
+              "local_name": "Keyboard",
+              "imported_name": null,
+              "declared_specifier": null
+            },
+            "evidence": {
+              "authority": "ast-static-analysis",
+              "state": "observed",
+              "confidence": "exact",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+                "sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "input.ts",
+                  "start": {
+                    "line": 23,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 49,
+                    "column": 1
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-module-export",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_b7b2565b2045daeacef30ac3f956bd1ed294121aebc07d983819d8963069ddce",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          }
+        ]
+      },
+      {
+        "node_id": "jag_node_4241362ea8bc3177fd0447aedc0778e2ce8fdb870ce94d31315c4547649fc16e",
+        "kind": "javascript-module",
+        "identity": {
+          "strategy": "artifact-local-key",
+          "stability": "artifact-version",
+          "artifact_sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+          "namespace": "module-export",
+          "key": "[\"a8baa00fb918941d92e49b57aed67dca0f91eac801e927976dcbbf1909a386d7\",\"input.ts\",\"Mouse\"]"
+        },
+        "observations": [
+          {
+            "label": "input.ts:Mouse:return-shapes",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-return-shapes",
+              "module_path": "input.ts",
+              "exported_name": "Mouse",
+              "callable_id": "callable:class:1611:2680",
+              "callable_kind": "class",
+              "static_return_shapes": [],
+              "return_shape_coverage": {
+                "status": "complete",
+                "retained_return_sites": 0,
+                "omitted_return_sites": 0,
+                "omitted_fields": 0,
+                "omitted_property_coverage": 0,
+                "projection_complete": true
+              }
+            },
+            "evidence": {
+              "authority": "static-relationship-inference",
+              "state": "inferred",
+              "confidence": "high",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+                "sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "input.ts",
+                  "start": {
+                    "line": 51,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 83,
+                    "column": 1
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-export-return-shapes",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "No direct return value was retained; runtime return behavior remains unknown.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return shapes are inferred from inert syntax and do not prove runtime behavior.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Static syntax does not prove that this relationship executes at runtime.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_2759b5079d6e61586dd49557640030ebe3589c478518043bfb31197b818ad918",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          },
+          {
+            "label": "input.ts:Mouse",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-binding",
+              "module_path": "input.ts",
+              "relationship_kind": "export",
+              "exported_name": "Mouse",
+              "local_name": "Mouse",
+              "imported_name": null,
+              "declared_specifier": null
+            },
+            "evidence": {
+              "authority": "ast-static-analysis",
+              "state": "observed",
+              "confidence": "exact",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+                "sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "input.ts",
+                  "start": {
+                    "line": 51,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 83,
+                    "column": 1
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-module-export",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_eb537065dd5af807ed4360195faf53657f453c8d265329f3ec84d94e09a6fc37",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          }
+        ]
+      },
+      {
+        "node_id": "jag_node_c740ec9a753594a53a3cce433d174af9d49e0653e88364bef234e428e2827641",
+        "kind": "javascript-module",
+        "identity": {
+          "strategy": "artifact-local-key",
+          "stability": "artifact-version",
+          "artifact_sha256": "5a4b0c7dfe3a9f0bfee321732265a8fefd3e101d74517eef32a3ae079ba70ce8",
+          "namespace": "module-export",
+          "key": "[\"a8baa00fb918941d92e49b57aed67dca0f91eac801e927976dcbbf1909a386d7\",\"timeoutSettings.ts\",\"kNoTimeout\"]"
+        },
+        "observations": [
+          {
+            "label": "timeoutSettings.ts:kNoTimeout",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-binding",
+              "module_path": "timeoutSettings.ts",
+              "relationship_kind": "export",
+              "exported_name": "kNoTimeout",
+              "local_name": "kNoTimeout",
+              "imported_name": null,
+              "declared_specifier": null
+            },
+            "evidence": {
+              "authority": "ast-static-analysis",
+              "state": "observed",
+              "confidence": "exact",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_5a4b0c7dfe3a9f0bfee321732265a8fefd3e101d74517eef32a3ae079ba70ce8",
+                "sha256": "5a4b0c7dfe3a9f0bfee321732265a8fefd3e101d74517eef32a3ae079ba70ce8"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "timeoutSettings.ts",
+                  "start": {
+                    "line": 26,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 85
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-module-export",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_0cdfebb587525f121e2bb902f1c98b78ade48eedaa3b4331c60679183624f96c",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          }
+        ]
+      }
+    ],
+    "excerpt_notice": "Selected unchanged graph nodes only, not the complete canonical output. Graph completeness applies only to the reported scope. No runtime model or UI execution."
+  },
+  {
+    "source_output_file": "rea-input-scoped.json",
+    "output_sha256": "42bf8f04839c0e2666a7106ce6fe1f89f126e79c5d991d9b3bfc44ca1d7bd325",
+    "output_bytes": 723151,
+    "tool": "rea-agents@6.4.0",
+    "target_commit": "d9f2fd3e2232ace8e317a84eda6cb86e25bcf49c",
+    "scope": "Exact copies of input.ts and timeoutSettings.ts only; complete within bounded scope, external imports unresolved",
+    "evidence_id": "ev_23cec73ba06676ec2ffc302939267e122f097a9dfc3075e7cf919a311777c844",
+    "graph_id": "jag_49ea14f677c88772a0abaa09bd07337d11ecad7861cc3d554dcf004ab32a9cd3",
+    "statistics": {
+      "relevant_files": 2,
+      "nested_asar_containers": 0,
+      "text_bytes_read": 6247,
+      "invalid_utf8_files": 0,
+      "parsed_javascript_files": 2,
+      "visited_ast_nodes": 815,
+      "findings": 20,
+      "modules": 0,
+      "parse_failures": 0
+    },
+    "coverage": {
+      "status": "complete",
+      "truncated": false,
+      "omitted_count": 0,
+      "limits": []
+    },
+    "limitations": [
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+    ],
+    "selected_nodes": [
+      {
+        "node_id": "jag_node_094fba35c02354d2043fbf0ce844b8bc7c77b054a3fa75e4cb442ab2300ae700",
+        "kind": "javascript-module",
+        "identity": {
+          "strategy": "artifact-local-key",
+          "stability": "artifact-version",
+          "artifact_sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+          "namespace": "module-export",
+          "key": "[\"440e3f5617dea60b13c334a195079ce364ae5b4c4be74c9762835fc4777f08e4\",\"input.ts\",\"Mouse\"]"
+        },
+        "observations": [
+          {
+            "label": "input.ts:Mouse",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-binding",
+              "module_path": "input.ts",
+              "relationship_kind": "export",
+              "exported_name": "Mouse",
+              "local_name": "Mouse",
+              "imported_name": null,
+              "declared_specifier": null
+            },
+            "evidence": {
+              "authority": "ast-static-analysis",
+              "state": "observed",
+              "confidence": "exact",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+                "sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "input.ts",
+                  "start": {
+                    "line": 51,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 83,
+                    "column": 1
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-module-export",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_72787164dc112feb7b92c4b6da3b865c80ff7c76e251d70998fad1971438bf86",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          },
+          {
+            "label": "input.ts:Mouse:return-shapes",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-return-shapes",
+              "module_path": "input.ts",
+              "exported_name": "Mouse",
+              "callable_id": "callable:class:1611:2680",
+              "callable_kind": "class",
+              "static_return_shapes": [],
+              "return_shape_coverage": {
+                "status": "complete",
+                "retained_return_sites": 0,
+                "omitted_return_sites": 0,
+                "omitted_fields": 0,
+                "omitted_property_coverage": 0,
+                "projection_complete": true
+              }
+            },
+            "evidence": {
+              "authority": "static-relationship-inference",
+              "state": "inferred",
+              "confidence": "high",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+                "sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "input.ts",
+                  "start": {
+                    "line": 51,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 83,
+                    "column": 1
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-export-return-shapes",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "No direct return value was retained; runtime return behavior remains unknown.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return shapes are inferred from inert syntax and do not prove runtime behavior.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Static syntax does not prove that this relationship executes at runtime.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_a9c9492d945ab3b111e7bff91ed3f53358034cd276e909ce91411d67d6ef94df",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          }
+        ]
+      },
+      {
+        "node_id": "jag_node_852941d8cefd6f3911b9de62d66a5e4cecce446b20aacc0b0de53e99a858711d",
+        "kind": "javascript-module",
+        "identity": {
+          "strategy": "artifact-local-key",
+          "stability": "artifact-version",
+          "artifact_sha256": "5a4b0c7dfe3a9f0bfee321732265a8fefd3e101d74517eef32a3ae079ba70ce8",
+          "namespace": "module-export",
+          "key": "[\"440e3f5617dea60b13c334a195079ce364ae5b4c4be74c9762835fc4777f08e4\",\"timeoutSettings.ts\",\"kNoTimeout\"]"
+        },
+        "observations": [
+          {
+            "label": "timeoutSettings.ts:kNoTimeout",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-binding",
+              "module_path": "timeoutSettings.ts",
+              "relationship_kind": "export",
+              "exported_name": "kNoTimeout",
+              "local_name": "kNoTimeout",
+              "imported_name": null,
+              "declared_specifier": null
+            },
+            "evidence": {
+              "authority": "ast-static-analysis",
+              "state": "observed",
+              "confidence": "exact",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_5a4b0c7dfe3a9f0bfee321732265a8fefd3e101d74517eef32a3ae079ba70ce8",
+                "sha256": "5a4b0c7dfe3a9f0bfee321732265a8fefd3e101d74517eef32a3ae079ba70ce8"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "timeoutSettings.ts",
+                  "start": {
+                    "line": 26,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 85
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-module-export",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_a39b8d9c4bebee9fc46ff601b002c5f184c8f1756a8df619d1913a18eae5dcc0",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          }
+        ]
+      },
+      {
+        "node_id": "jag_node_fc8b0abdeda1ca5fcdfffd53f8b6f415e99d145e01e36e81281729a963354f4a",
+        "kind": "javascript-module",
+        "identity": {
+          "strategy": "artifact-local-key",
+          "stability": "artifact-version",
+          "artifact_sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+          "namespace": "module-export",
+          "key": "[\"440e3f5617dea60b13c334a195079ce364ae5b4c4be74c9762835fc4777f08e4\",\"input.ts\",\"Keyboard\"]"
+        },
+        "observations": [
+          {
+            "label": "input.ts:Keyboard",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-binding",
+              "module_path": "input.ts",
+              "relationship_kind": "export",
+              "exported_name": "Keyboard",
+              "local_name": "Keyboard",
+              "imported_name": null,
+              "declared_specifier": null
+            },
+            "evidence": {
+              "authority": "ast-static-analysis",
+              "state": "observed",
+              "confidence": "exact",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+                "sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "input.ts",
+                  "start": {
+                    "line": 23,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 49,
+                    "column": 1
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-module-export",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_0da75262cccc7ddea0508cd163129b7b3e6719a8c613717002b522eb9638dfd2",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          },
+          {
+            "label": "input.ts:Keyboard:return-shapes",
+            "source_map_reference": null,
+            "properties": {
+              "semantic_role": "export-return-shapes",
+              "module_path": "input.ts",
+              "exported_name": "Keyboard",
+              "callable_id": "callable:class:856:1602",
+              "callable_kind": "class",
+              "static_return_shapes": [],
+              "return_shape_coverage": {
+                "status": "complete",
+                "retained_return_sites": 0,
+                "omitted_return_sites": 0,
+                "omitted_fields": 0,
+                "omitted_property_coverage": 0,
+                "projection_complete": true
+              }
+            },
+            "evidence": {
+              "authority": "static-relationship-inference",
+              "state": "inferred",
+              "confidence": "high",
+              "artifact": {
+                "available": true,
+                "artifact_id": "art_72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7",
+                "sha256": "72fc1e817d8b80f243a219c4229de5abc427e9275f606c7cbeacd0d9c72a20f7"
+              },
+              "location": {
+                "available": true,
+                "value": {
+                  "kind": "source-range",
+                  "source": "input.ts",
+                  "start": {
+                    "line": 23,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 49,
+                    "column": 1
+                  }
+                }
+              },
+              "extractor": {
+                "name": "rea-javascript-artifact-reconstruction",
+                "version": "1",
+                "operation": "recover-export-return-shapes",
+                "executable_sha256": null
+              },
+              "coverage": {
+                "status": "complete",
+                "truncated": false,
+                "omitted_count": 0,
+                "limits": []
+              },
+              "limitations": [
+                "Cross-function mutation and dynamic property resolution remain unknown.",
+                "Local call, argument, return, and closure relations are static candidates and do not prove runtime invocation.",
+                "No direct return value was retained; runtime return behavior remains unknown.",
+                "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+                "Return shapes are inferred from inert syntax and do not prove runtime behavior.",
+                "Return sites include only direct callable returns; nested callable returns remain separate.",
+                "Static syntax does not prove that this relationship executes at runtime.",
+                "Values and aliases were recovered from inert syntax only; no JavaScript was executed."
+              ],
+              "evidence_ids": []
+            },
+            "observation_id": "jag_observation_fa2d24c567fe38a3341cb647251054c27ac2de73309fc9b1c566b23c078144b9",
+            "identifier_strategy": {
+              "strategy": "semantic-content-sha256",
+              "stability": "observation-exact"
+            }
+          }
+        ]
+      }
+    ],
+    "excerpt_notice": "Selected unchanged graph nodes only, not the complete canonical output. Graph completeness applies only to the reported scope. No runtime model or UI execution."
+  }
+]

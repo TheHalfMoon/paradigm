@@ -1,0 +1,15 @@
+{
+  "description": "Classify evidence scope for human review",
+  "questions": {
+    "scope": {
+      "type": "choice",
+      "instructions": "Classify the evidence origin stated in this record",
+      "criteria": {
+        "source": "Public source content",
+        "vendor": "Publisher measurement",
+        "experiment": "Independently executed experiment",
+        "unknown": "Insufficient provenance"
+      }
+    }
+  }
+}

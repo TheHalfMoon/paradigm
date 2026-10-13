@@ -1,0 +1,174 @@
+[
+  {
+    "id": "C01",
+    "claim": "WanA14 Bweightlicense is Apache 2",
+    "classifier": "VERIFIED",
+    "origin": "source_fact",
+    "source_ids": [
+      "wan-license",
+      "wan-readme"
+    ],
+    "limit": "Does not clear third party training assets or prove quality"
+  },
+  {
+    "id": "C02",
+    "claim": "Wan is the best supported first camera-LoRA foundation among inspected eligible candidates",
+    "classifier": "PRELIMINARY",
+    "origin": "proposal",
+    "source_ids": [
+      "wan-config",
+      "wan-pinned-README-md"
+    ],
+    "limit": "LongCat and 5 Bchallengers require matched GPU trial; not global quality ranking"
+  },
+  {
+    "id": "C03",
+    "claim": "Musubi 24GBtrainingclaim is for images, not 49/81 frame video",
+    "classifier": "VERIFIED",
+    "origin": "source_fact",
+    "source_ids": [
+      "exa-permissive-video"
+    ],
+    "limit": "Actual docs and source inspected; GPU peak memory un measured"
+  },
+  {
+    "id": "C04",
+    "claim": "Holo 35 released license Apache 2,35 Btotalnot 3 Bresident",
+    "classifier": "VERIFIED",
+    "origin": "source_fact",
+    "source_ids": [
+      "holo4-pinned-LICENSE",
+      "holo4-pinned-config-json"
+    ],
+    "limit": "~70GBBF16 is arithmetic not measured peak"
+  },
+  {
+    "id": "C05",
+    "claim": "Holo 35OSWorld 2 headline 30.9 is partial score, not binary success",
+    "classifier": "VERIFIED",
+    "origin": "recomputed_publisher_metadata",
+    "source_ids": [
+      "trajectories-index",
+      "trajectories-card"
+    ],
+    "limit": "Publisher index only,106 public tasks; our benchmark not executed"
+  },
+  {
+    "id": "C06",
+    "claim": "Hcompanytrajectories are benchmark executions, perf is serving replay",
+    "classifier": "VERIFIED",
+    "origin": "source_fact",
+    "source_ids": [
+      "trajectories-pinned-README-md",
+      "perf-pinned-README-md",
+      "perf-processor"
+    ],
+    "limit": "No SFT target benchmark pool"
+  },
+  {
+    "id": "C07",
+    "claim": "Holo 35 is practical general Hala base but browser superiority unproven",
+    "classifier": "PRELIMINARY",
+    "origin": "proposal",
+    "source_ids": [
+      "holo4-card",
+      "fara15-9-pinned-README-md"
+    ],
+    "limit": "Fara MIT challenger, no matched OSWorld 2 comparison"
+  },
+  {
+    "id": "C08",
+    "claim": "Seedance 1.0 discloses cu ration/captions/preferences/distillation concepts",
+    "classifier": "VERIFIED",
+    "origin": "source_fact",
+    "source_ids": [
+      "exa-seedance-papers"
+    ],
+    "limit": "No inference that 2.5 uses identical pipeline"
+  },
+  {
+    "id": "C09",
+    "claim": "LTX2.5 requires commercial license\u2265$10M; H3 territorialexclusions",
+    "classifier": "VERIFIED",
+    "origin": "source_fact",
+    "source_ids": [
+      "ltx-license2",
+      "h3-license"
+    ],
+    "limit": "Conditional legal analysis, agreements not accepted; H3FAQcontradiction"
+  },
+  {
+    "id": "C10",
+    "claim": "FineVideo is automatically cleared commercial training because CC",
+    "classifier": "CONTRADICTED",
+    "origin": "source_fact",
+    "source_ids": [
+      "exa-finevideo-full"
+    ],
+    "limit": "Gate/removal conditions and uploader/third party assets require additional review"
+  },
+  {
+    "id": "C11",
+    "claim": "New Sora 2APIbaselineavailable",
+    "classifier": "CONTRADICTED",
+    "origin": "source_fact",
+    "source_ids": [
+      "exa-sora-current"
+    ],
+    "limit": "API shutdown September 24 2026"
+  },
+  {
+    "id": "C12",
+    "claim": "OSWorld 2.1 currently recommended tag resolved",
+    "classifier": "VERIFIED",
+    "origin": "source_fact",
+    "source_ids": [
+      "osworld2-readme",
+      "osworld2-tag"
+    ],
+    "limit": "Assets agreement not accepted; tag alone insufficient reproducibility"
+  },
+  {
+    "id": "C13",
+    "claim": "Private HF storage unlimited/free",
+    "classifier": "CONTRADICTED",
+    "origin": "source_fact",
+    "source_ids": [
+      "hf-storage"
+    ],
+    "limit": "100GBfreeprivate, PRO1TB, overage 18/TBmo; account quota unknown"
+  },
+  {
+    "id": "C14",
+    "claim": "Small camera LoRA/fresh harness can improve quality/task success",
+    "classifier": "UNVERIFIED",
+    "origin": "proposal",
+    "source_ids": [
+      "wan-config",
+      "exa-holo4-news"
+    ],
+    "limit": "No GPU experiment or measured improvement yet"
+  },
+  {
+    "id": "C15",
+    "claim": "RE A actual static Playwright analysis succeeded within bounded scopes",
+    "classifier": "VERIFIED",
+    "origin": "our_tool_run",
+    "source_ids": [
+      "rea-package",
+      "rea-license"
+    ],
+    "limit": "Static not runtime; full client graph partial, scoped input graph complete"
+  },
+  {
+    "id": "C16",
+    "claim": "AutomationBench card/index scores form one comparable metric",
+    "classifier": "CONTRADICTED",
+    "origin": "recomputed_publisher_metadata",
+    "source_ids": [
+      "trajectories-card",
+      "trajectories-index"
+    ],
+    "limit": "Metric/protocol discrepancy unresolved"
+  }
+]

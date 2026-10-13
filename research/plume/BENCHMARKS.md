@@ -1,0 +1,9 @@
+# Plume benchmarks
+
+[Protocol](../../benchmarks/EVALUATION_PROTOCOL.md) fixes paired prompts/seeds, blinded ratings, cluster bootstrap and regression gates. [VBench upstream](https://github.com/Vchitect/VBench/tree/fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490) combines VBench, VBench++ and VBench 2.0 in one repository; a guessed separate VBench-2.0 repo is not an authority.
+
+Use original VBench for identity/background consistency, motion/smoothness/flicker, aesthetics/imaging quality and alignment dimensions as defined by pinned code. Use VBench++ for relevantI2V/long video/trust lanes and VBench 2.0 for higher level human fidelity/controllability/physics/common-sense dimensions. Download scoring weights/assets remotely only after rights/dependency review; freeze each scorer model revision and configuration. Do not collapse all sub scores into a single unqualified score or compare changed scoring releases.
+
+Camera-focused custom suite supplies first marginal gain test; physics/human/identity cohorts prevent narrow metric optimization. Add source-identity groups/held out style to catch memorization. AV modules get sync, lip speech/reference fidelity and complete latency/cost measurements.30 sclaimrequiresreal 30 snative/system-run outputs with cut/identity audit; chaining six 5 sclips is a separate product metric.
+
+Independent Artificial Analysis preference leaderboards provide market context, not causal base-selection evidence. Capture date, endpoint, tier, EloCI, number of comparisons, and conditions before using a ranking. No independent matched Wan/LongCat/Plume execution exists in the current record. Paid Seedance/Veo/Kling/Runway/Luma/Pika comparisons require approved credits and actual endpoint availability. Sources currently support capability mapping and pilot design, not leadership.

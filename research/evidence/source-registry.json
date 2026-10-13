@@ -1,0 +1,1559 @@
+[
+  {
+    "id": "amass-rights",
+    "url": "https://amass.is.tue.mpg.de/license.html",
+    "accessed_at": "2026-10-11T22:22:21.066849+00:00",
+    "status": 200,
+    "final_url": "https://amass.is.tue.mpg.de/license.html",
+    "sha256": "c34c503052154a71e1b196540c5551e92523100ebd9ef172403f61d3a391be26",
+    "bytes": 13675,
+    "truncated": false
+  },
+  {
+    "id": "blender-rights",
+    "url": "https://studio.blender.org/projects/",
+    "accessed_at": "2026-10-11T22:22:21.018535+00:00",
+    "status": 200,
+    "final_url": "https://studio.blender.org/projects/",
+    "sha256": "456530f7d585f0041ef461f05a77c81c74ae7a6051fffb992aff3230cdac6bad",
+    "bytes": 58584,
+    "truncated": false
+  },
+  {
+    "id": "cog-card",
+    "url": "https://huggingface.co/THUDM/CogVideoX1.5-5B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:37.802876+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/zai-org/CogVideoX1.5-5B/raw/main/README.md",
+    "sha256": "46a3174c0d1ad976d71eff1eb4c0724c2c1dc008c7b0b7fcf355ed39fd1878b1",
+    "bytes": 14645,
+    "truncated": false
+  },
+  {
+    "id": "cog-license",
+    "url": "https://huggingface.co/THUDM/CogVideoX1.5-5B/raw/main/LICENSE",
+    "accessed_at": "2026-10-11T22:35:31.660035+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/zai-org/CogVideoX1.5-5B/raw/main/LICENSE",
+    "sha256": "f1702a540abe80caa3458a4eb539d8a138ffeab99d971d14a99083726814037e",
+    "bytes": 5704,
+    "truncated": false
+  },
+  {
+    "id": "commons-rights",
+    "url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+    "accessed_at": "2026-10-11T22:22:20.676481+00:00",
+    "status": 200,
+    "final_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+    "sha256": "1b15998f3b0f08be1173aad83dc79bc94fe85f93a8eda171ca902b140e457374",
+    "bytes": 130040,
+    "truncated": false
+  },
+  {
+    "id": "dragon-api",
+    "url": "https://huggingface.co/api/datasets/Hcompany/DragOn",
+    "accessed_at": "2026-10-11T22:15:55.152725+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/datasets/Hcompany/DragOn",
+    "sha256": "aeb94f68aa341cb427e3e13bde7e46016c536bf6734f5305b799585500262b3e",
+    "bytes": 160127,
+    "truncated": false
+  },
+  {
+    "id": "dragon-card",
+    "url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:15:55.150715+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/main/README.md",
+    "sha256": "e7ef94cafcfd155961beec373f2f4e727715b7d517a819f52b5407fc2dec4009",
+    "bytes": 3894,
+    "truncated": false
+  },
+  {
+    "id": "dragon-pinned-README-md",
+    "url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/3451c1fc3543c18fc3361a32bfe1f12cc69b64b5/README.md",
+    "accessed_at": "2026-10-11T22:27:09.298195+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/3451c1fc3543c18fc3361a32bfe1f12cc69b64b5/README.md",
+    "sha256": "e7ef94cafcfd155961beec373f2f4e727715b7d517a819f52b5407fc2dec4009",
+    "bytes": 3894,
+    "truncated": false
+  },
+  {
+    "id": "dragon-record-0",
+    "url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/3451c1fc3543c18fc3361a32bfe1f12cc69b64b5/eval/sheet/tasks/0251a62e-9be7-5d80-adcd-008dc6156936.json",
+    "accessed_at": "2026-10-11T22:27:09.302046+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/3451c1fc3543c18fc3361a32bfe1f12cc69b64b5/eval/sheet/tasks/0251a62e-9be7-5d80-adcd-008dc6156936.json",
+    "sha256": "6cf77d0af14238625eb9e9e6c401a12493b4ca0326c32add9625ffa3482f2d4e",
+    "bytes": 424,
+    "truncated": false
+  },
+  {
+    "id": "dragon-record-1",
+    "url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/3451c1fc3543c18fc3361a32bfe1f12cc69b64b5/eval/sheet/tasks/02c3206e-e09d-598c-a2a9-06c5e07b8038.json",
+    "accessed_at": "2026-10-11T22:27:09.302046+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/3451c1fc3543c18fc3361a32bfe1f12cc69b64b5/eval/sheet/tasks/02c3206e-e09d-598c-a2a9-06c5e07b8038.json",
+    "sha256": "8b1bd104fa590f4954148c410b3be057727102ff385ea537e112ea4e90521d88",
+    "bytes": 313,
+    "truncated": false
+  },
+  {
+    "id": "dragon-record-2",
+    "url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/3451c1fc3543c18fc3361a32bfe1f12cc69b64b5/eval/sheet/tasks/0437c343-2d7c-587d-a3bc-e69e06b70e67.json",
+    "accessed_at": "2026-10-11T22:27:09.302046+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/3451c1fc3543c18fc3361a32bfe1f12cc69b64b5/eval/sheet/tasks/0437c343-2d7c-587d-a3bc-e69e06b70e67.json",
+    "sha256": "304b88d94cb062a6942b280c0e30a272e7eee0785fe49730bf49ed2b7b649fff",
+    "bytes": 346,
+    "truncated": false
+  },
+  {
+    "id": "dragon-sample",
+    "url": "https://huggingface.co/datasets/Hcompany/DragOn/raw/main/eval/slider/tasks/0.json",
+    "accessed_at": "2026-10-11T22:22:21.735705+00:00",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "truncated": false
+  },
+  {
+    "id": "ego4d-rights",
+    "url": "https://ego4d-data.org/ego4d-license/",
+    "accessed_at": "2026-10-11T22:22:21.173102+00:00",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "truncated": false
+  },
+  {
+    "id": "fara-card",
+    "url": "https://huggingface.co/microsoft/Fara-7B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:37.825942+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara-7B/raw/main/README.md",
+    "sha256": "c55441f3f9ddae9d87ff5a138fb772fb0179ce2800cb6e143080fa681c513b3e",
+    "bytes": 16361,
+    "truncated": false
+  },
+  {
+    "id": "fara15-27-card",
+    "url": "https://huggingface.co/microsoft/Fara1.5-27B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:22:21.533813+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara1.5-27B/raw/main/README.md",
+    "sha256": "e59e160be724f8b509de928e6c1f5f467ed9423b6a4f09764d38c033d076ec7c",
+    "bytes": 15569,
+    "truncated": false
+  },
+  {
+    "id": "fara15-9-api",
+    "url": "https://huggingface.co/api/models/microsoft/Fara1.5-9B",
+    "accessed_at": "2026-10-11T22:22:21.677744+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models/microsoft/Fara1.5-9B",
+    "sha256": "b5d920708c73f965efabfa1070bf54fe848c7f167a6ed5afb36bde98d3a8d57a",
+    "bytes": 10462,
+    "truncated": false
+  },
+  {
+    "id": "fara15-9-card",
+    "url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:22:21.495095+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/main/README.md",
+    "sha256": "64a465ed7d131c47f734f0a2a6ef05d2e61e67de89ac384dacc98089c4551518",
+    "bytes": 15600,
+    "truncated": false
+  },
+  {
+    "id": "fara15-9-pinned-chat_template-jinja",
+    "url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/chat_template.jinja",
+    "accessed_at": "2026-10-11T22:27:10.061521+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/chat_template.jinja",
+    "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "bytes": 7756,
+    "truncated": false
+  },
+  {
+    "id": "fara15-9-pinned-config-json",
+    "url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/config.json",
+    "accessed_at": "2026-10-11T22:27:09.920817+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/config.json",
+    "sha256": "1fb5e0dd2f42ae36c8939d3ef3f21bc442cb6d1822a87d03b6073cd21fa81a2f",
+    "bytes": 2807,
+    "truncated": false
+  },
+  {
+    "id": "fara15-9-pinned-README-md",
+    "url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/README.md",
+    "accessed_at": "2026-10-11T22:27:09.890182+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/README.md",
+    "sha256": "64a465ed7d131c47f734f0a2a6ef05d2e61e67de89ac384dacc98089c4551518",
+    "bytes": 15600,
+    "truncated": false
+  },
+  {
+    "id": "fara15-9-pinned-tokenizer_config-json",
+    "url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/tokenizer_config.json",
+    "accessed_at": "2026-10-11T22:27:10.027594+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/microsoft/Fara1.5-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/tokenizer_config.json",
+    "sha256": "0a4aac55e24b1424b7b04b187b1139aa2e06516e2fdf561d21d0ffe10394d570",
+    "bytes": 1183,
+    "truncated": false
+  },
+  {
+    "id": "fara15-license",
+    "url": "https://huggingface.co/microsoft/Fara-9B/raw/1a93677cd89d5601bc2ed759791e981f3a520032/LICENSE",
+    "accessed_at": "2026-10-11T22:35:31.661117+00:00",
+    "status": "error",
+    "error": "HTTP Error 401: Unauthorized",
+    "truncated": false
+  },
+  {
+    "id": "fara15-list",
+    "url": "https://huggingface.co/api/models?author=microsoft&search=Fara&limit=30",
+    "accessed_at": "2026-10-11T22:19:37.830973+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models?author=microsoft&search=Fara&limit=30",
+    "sha256": "fb2d699106871b5fdedace230b8f6ac62a60f6bec8974a2a44800f25e5339681",
+    "bytes": 2750,
+    "truncated": false
+  },
+  {
+    "id": "finevideo-api",
+    "url": "https://huggingface.co/api/datasets/HuggingFaceFV/finevideo",
+    "accessed_at": "2026-10-11T22:22:20.467873+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/datasets/HuggingFaceFV/finevideo",
+    "sha256": "2798701f4e9139355b6ef1d832f3a3a15ed40f7a4d8abb2f69fe1d5808b49275",
+    "bytes": 74637,
+    "truncated": false
+  },
+  {
+    "id": "finevideo-card",
+    "url": "https://huggingface.co/datasets/HuggingFaceFV/finevideo/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:22:20.464755+00:00",
+    "status": "error",
+    "error": "HTTP Error 401: Unauthorized",
+    "truncated": false
+  },
+  {
+    "id": "finevideo-paper",
+    "url": "https://huggingface.co/blog/fine-video",
+    "accessed_at": "2026-10-11T22:22:20.473589+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/blog/fine-video",
+    "sha256": "cc3f903210106e564d970d58db303de8e72cfd9b8e3fb634bbd640bc0919a5f9",
+    "bytes": 213521,
+    "truncated": false
+  },
+  {
+    "id": "h3-api",
+    "url": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-H3",
+    "accessed_at": "2026-10-11T22:19:37.226559+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-H3",
+    "sha256": "d0f70e3bd684c80b3bb2179fb51e5aadcca1892036f31462e960515958e445ec",
+    "bytes": 21197,
+    "truncated": false
+  },
+  {
+    "id": "h3-card",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:37.218714+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/main/README.md",
+    "sha256": "f0116a90332496bdfcc827320c603a26b849c73bf804f2674d03682fbbd2334a",
+    "bytes": 38406,
+    "truncated": false
+  },
+  {
+    "id": "h3-license",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/main/LICENSE",
+    "accessed_at": "2026-10-11T22:19:37.218714+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/main/LICENSE",
+    "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+    "bytes": 17604,
+    "truncated": false
+  },
+  {
+    "id": "h3-qa",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/main/docs/QA-about-License.md",
+    "accessed_at": "2026-10-11T22:19:37.228575+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/main/docs/QA-about-License.md",
+    "sha256": "c39dcfc5dc3e546918509b57709db826a9b1945311bffaa01e80501101b8abe4",
+    "bytes": 3917,
+    "truncated": false
+  },
+  {
+    "id": "hf-compute",
+    "url": "https://huggingface.co/pricing",
+    "accessed_at": "2026-10-11T22:35:32.147639+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/pricing",
+    "sha256": "5ccc50e3257ae59021a0ba28c589666f6c0d0030e3821919694465c4dd07129a",
+    "bytes": 225907,
+    "truncated": false
+  },
+  {
+    "id": "hf-storage",
+    "url": "https://huggingface.co/docs/hub/storage-limits",
+    "accessed_at": "2026-10-11T22:19:38.182180+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/docs/hub/storage-limits",
+    "sha256": "0eb01acb752c8e31b8a02a1ac17d585a669b2497422b4061f8c8c6743cccc315",
+    "bytes": 222744,
+    "truncated": false
+  },
+  {
+    "id": "holo4-27-card",
+    "url": "https://huggingface.co/Hcompany/Holo4-27B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:15:55.150715+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holo4-27B/raw/main/README.md",
+    "sha256": "2254c1065a1d88bc491a93e060c5c55e25edc90a34c935a457b5dc1466a1c123",
+    "bytes": 6720,
+    "truncated": false
+  },
+  {
+    "id": "holo4-api",
+    "url": "https://huggingface.co/api/models/Hcompany/Holo4-35B-A3B",
+    "accessed_at": "2026-10-11T22:15:55.145504+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models/Hcompany/Holo4-35B-A3B",
+    "sha256": "8b3ebee22b8425215c8d0af32247eee48987c65e8a83af0de1a1dd7fce7ef9f7",
+    "bytes": 19311,
+    "truncated": false
+  },
+  {
+    "id": "holo4-card",
+    "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:15:55.145504+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/main/README.md",
+    "sha256": "4f1aa5006aa9adaeb5ac549e5a5f8ea164352714a00528b1afb8602812d45b44",
+    "bytes": 6081,
+    "truncated": false
+  },
+  {
+    "id": "holo4-config",
+    "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/main/config.json",
+    "accessed_at": "2026-10-11T22:15:55.145504+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/main/config.json",
+    "sha256": "6fa9fe6c73d79a30dfd40809d43ac8cd96ad74966d2329716c8399c785876677",
+    "bytes": 3195,
+    "truncated": false
+  },
+  {
+    "id": "holo4-pinned-chat_template-jinja",
+    "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/chat_template.jinja",
+    "accessed_at": "2026-10-11T22:27:09.790826+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/chat_template.jinja",
+    "sha256": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259",
+    "bytes": 7764,
+    "truncated": false
+  },
+  {
+    "id": "holo4-pinned-config-json",
+    "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/config.json",
+    "accessed_at": "2026-10-11T22:27:09.788829+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/config.json",
+    "sha256": "6fa9fe6c73d79a30dfd40809d43ac8cd96ad74966d2329716c8399c785876677",
+    "bytes": 3195,
+    "truncated": false
+  },
+  {
+    "id": "holo4-pinned-LICENSE",
+    "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/LICENSE",
+    "accessed_at": "2026-10-11T22:27:09.782117+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/LICENSE",
+    "sha256": "50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+    "bytes": 11343,
+    "truncated": false
+  },
+  {
+    "id": "holo4-pinned-README-md",
+    "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/README.md",
+    "accessed_at": "2026-10-11T22:27:09.771435+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/README.md",
+    "sha256": "4f1aa5006aa9adaeb5ac549e5a5f8ea164352714a00528b1afb8602812d45b44",
+    "bytes": 6081,
+    "truncated": false
+  },
+  {
+    "id": "holo4-pinned-tokenizer_config-json",
+    "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/tokenizer_config.json",
+    "accessed_at": "2026-10-11T22:27:09.789523+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holo4-35B-A3B/raw/508458727831368da85d53a8055c2b0f923ed4f3/tokenizer_config.json",
+    "sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+    "bytes": 16718,
+    "truncated": false
+  },
+  {
+    "id": "holotron-card",
+    "url": "https://huggingface.co/Hcompany/Holotron4-30B-A3B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:38.093378+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Hcompany/Holotron4-30B-A3B/raw/main/README.md",
+    "sha256": "9095b7a5137876923d527f739c3013c3a12d84a7178b83502b7457058a8e081c",
+    "bytes": 7516,
+    "truncated": false
+  },
+  {
+    "id": "hy15-api",
+    "url": "https://huggingface.co/api/models/tencent/HunyuanVideo-1.5",
+    "accessed_at": "2026-10-11T22:19:37.788495+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models/tencent/HunyuanVideo-1.5",
+    "sha256": "e237a2e9e3c338ffde309554cc0d276e579b298cc8c5763a8649efaf56575f0f",
+    "bytes": 7074,
+    "truncated": false
+  },
+  {
+    "id": "hy15-card",
+    "url": "https://huggingface.co/tencent/HunyuanVideo-1.5/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:37.241437+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/tencent/HunyuanVideo-1.5/raw/main/README.md",
+    "sha256": "fdf86982e7cd3d467e832d622e8779ce4588cb3a05fd09f4e3f5e47caf119437",
+    "bytes": 59386,
+    "truncated": false
+  },
+  {
+    "id": "hy15-license",
+    "url": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanVideo-1.5/main/LICENSE",
+    "accessed_at": "2026-10-11T22:19:37.761727+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanVideo-1.5/main/LICENSE",
+    "sha256": "c38236952096107a4adbc164f44cd1768745b0a20090ea858e0954c96a6b8391",
+    "bytes": 16424,
+    "truncated": false
+  },
+  {
+    "id": "kandinsky-card",
+    "url": "https://huggingface.co/kandinskylab/Kandinsky-5.0-T2V-Lite-sft-5s/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:37.788495+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/kandinskylab/Kandinsky-5.0-T2V-Lite-sft-5s/raw/main/README.md",
+    "sha256": "76161130b53a115b594b716346af0cc8fadd019fdc765cba3ecf6cb129176249",
+    "bytes": 14572,
+    "truncated": false
+  },
+  {
+    "id": "kandinsky-license",
+    "url": "https://raw.githubusercontent.com/ai-forever/Kandinsky-5/main/LICENSE",
+    "accessed_at": "2026-10-11T22:19:37.799688+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ai-forever/Kandinsky-5/main/LICENSE",
+    "sha256": "949460981b5a8441c32448aaedb2ab8a5676c835714e5524ad564186b00c973a",
+    "bytes": 1099,
+    "truncated": false
+  },
+  {
+    "id": "kinetics-rights",
+    "url": "https://raw.githubusercontent.com/cvdfoundation/kinetics-dataset/main/README.md",
+    "accessed_at": "2026-10-11T22:22:21.064720+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/cvdfoundation/kinetics-dataset/main/README.md",
+    "sha256": "73e5cc42c329c655cfc9e45c31f2985451f81043557ba14c0d630459f3b0ee4a",
+    "bytes": 5976,
+    "truncated": false
+  },
+  {
+    "id": "longcat-api",
+    "url": "https://huggingface.co/api/models/meituan-longcat/LongCat-Video",
+    "accessed_at": "2026-10-11T22:22:21.451000+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models/meituan-longcat/LongCat-Video",
+    "sha256": "aeb5955d0e97a2c6db4611f0ff8e4c300cee5836ec25eec4d9f1e8f0fe4c205e",
+    "bytes": 6438,
+    "truncated": false
+  },
+  {
+    "id": "longcat-card",
+    "url": "https://huggingface.co/meituan-longcat/LongCat-Video/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:22:21.431653+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/meituan-longcat/LongCat-Video/raw/main/README.md",
+    "sha256": "2dc318ceb6f9de22da8e9df4df4d21969d65476de6d832fc62445bf6e3507d30",
+    "bytes": 10068,
+    "truncated": false
+  },
+  {
+    "id": "longcat-pinned-config-json",
+    "url": "https://huggingface.co/meituan-longcat/LongCat-Video/raw/03b55529b1d1d4045f5fbe14d65c8c6e8116b278/config.json",
+    "accessed_at": "2026-10-11T22:27:10.065929+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/meituan-longcat/LongCat-Video/raw/03b55529b1d1d4045f5fbe14d65c8c6e8116b278/config.json",
+    "sha256": "0121461c0aae6083e23217414ddfdd78c4ff4d088838e9c88c1f483b8c6cefd1",
+    "bytes": 37,
+    "truncated": false
+  },
+  {
+    "id": "longcat-pinned-LICENSE",
+    "url": "https://huggingface.co/meituan-longcat/LongCat-Video/raw/03b55529b1d1d4045f5fbe14d65c8c6e8116b278/LICENSE",
+    "accessed_at": "2026-10-11T22:27:10.063085+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/meituan-longcat/LongCat-Video/raw/03b55529b1d1d4045f5fbe14d65c8c6e8116b278/LICENSE",
+    "sha256": "dfdbf36556065706ef8b26e5866acb85209b6465af0395578d38b63470e0bed0",
+    "bytes": 1063,
+    "truncated": false
+  },
+  {
+    "id": "longcat-pinned-README-md",
+    "url": "https://huggingface.co/meituan-longcat/LongCat-Video/raw/03b55529b1d1d4045f5fbe14d65c8c6e8116b278/README.md",
+    "accessed_at": "2026-10-11T22:27:10.063085+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/meituan-longcat/LongCat-Video/raw/03b55529b1d1d4045f5fbe14d65c8c6e8116b278/README.md",
+    "sha256": "2dc318ceb6f9de22da8e9df4df4d21969d65476de6d832fc62445bf6e3507d30",
+    "bytes": 10068,
+    "truncated": false
+  },
+  {
+    "id": "ltx-license",
+    "url": "https://raw.githubusercontent.com/Lightricks/LTX-2/main/LICENSE.md",
+    "accessed_at": "2026-10-11T22:19:37.218714+00:00",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "truncated": false
+  },
+  {
+    "id": "ltx-license2",
+    "url": "https://raw.githubusercontent.com/Lightricks/LTX-2/main/LICENSE-2_x",
+    "accessed_at": "2026-10-11T22:22:21.715075+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Lightricks/LTX-2/main/LICENSE-2_x",
+    "sha256": "be75acae5c99b0fb16ed6cfbf8f731e5121a729bef112d20337699407e796451",
+    "bytes": 30399,
+    "truncated": false
+  },
+  {
+    "id": "ltx25-api",
+    "url": "https://huggingface.co/api/models/Lightricks/LTX-2.5",
+    "accessed_at": "2026-10-11T22:19:37.218714+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models/Lightricks/LTX-2.5",
+    "sha256": "d226cab03bba58a3de2a9c6325735e5fb6c512fec928cebb6de46f08f6f03220",
+    "bytes": 4648,
+    "truncated": false
+  },
+  {
+    "id": "ltx25-card",
+    "url": "https://huggingface.co/Lightricks/LTX-2.5/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:37.218714+00:00",
+    "status": "error",
+    "error": "HTTP Error 401: Unauthorized",
+    "truncated": false
+  },
+  {
+    "id": "miradata-api",
+    "url": "https://huggingface.co/api/datasets/TencentARC/MiraData",
+    "accessed_at": "2026-10-11T22:27:10.144145+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/datasets/TencentARC/MiraData",
+    "sha256": "f582b3a6de742e70c5cccf6015e318abaadbdb96dce445be542a7edb60abaf29",
+    "bytes": 1734,
+    "truncated": false
+  },
+  {
+    "id": "miradata-card-correct",
+    "url": "https://huggingface.co/datasets/TencentARC/MiraData/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:27:10.094413+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/TencentARC/MiraData/raw/main/README.md",
+    "sha256": "0bf142f32e9a4520f570883ed7f31a95ef80949afa31d561e45f11bc5f9bffec",
+    "bytes": 4364,
+    "truncated": false
+  },
+  {
+    "id": "miradata-card",
+    "url": "https://huggingface.co/datasets/mira-lab/MiraData/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:22:20.467873+00:00",
+    "status": "error",
+    "error": "HTTP Error 401: Unauthorized",
+    "truncated": false
+  },
+  {
+    "id": "nasa-rights",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "accessed_at": "2026-10-11T22:22:20.478620+00:00",
+    "status": 200,
+    "final_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "sha256": "ad619ad61797e99b7c4148bd29d912d8a0724b999b6cc3762fe56b1d591ff468",
+    "bytes": 320652,
+    "truncated": false
+  },
+  {
+    "id": "ocr-delegate",
+    "url": "https://open-codereview.ai/docs/delegate",
+    "accessed_at": "2026-10-11T22:35:32.147639+00:00",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "truncated": false
+  },
+  {
+    "id": "ocr-package",
+    "url": "https://registry.npmjs.org/@alibaba-group/open-code-review/latest",
+    "accessed_at": "2026-10-11T22:27:10.735541+00:00",
+    "status": 200,
+    "final_url": "https://registry.npmjs.org/@alibaba-group/open-code-review/latest",
+    "sha256": "f3e524c94df53a6c5ef7f36e0d4420a7955b47bae4da470476909f564b73cd67",
+    "bytes": 2592,
+    "truncated": false
+  },
+  {
+    "id": "ocr-readme",
+    "url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/README.md",
+    "accessed_at": "2026-10-11T22:27:10.788840+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/README.md",
+    "sha256": "e90ddd2234de7d1b3608ed9107287cf94a9c574fb5d5d1c9e3133a83d4556bd6",
+    "bytes": 13447,
+    "truncated": false
+  },
+  {
+    "id": "opensora-card",
+    "url": "https://huggingface.co/hpcai-tech/Open-Sora-v2/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:37.820930+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/hpcai-tech/Open-Sora-v2/raw/main/README.md",
+    "sha256": "e89bbbcca4230e35fde9489425bb79ef1f6aa8babd8a729a48ad8d6f849d5b60",
+    "bytes": 12802,
+    "truncated": false
+  },
+  {
+    "id": "openve-readme",
+    "url": "https://raw.githubusercontent.com/OpenVE-Team/OpenVE-3M/main/README.md",
+    "accessed_at": "2026-10-11T22:27:10.828520+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/OpenVE-Team/OpenVE-3M/main/README.md",
+    "sha256": "68a9c41ff4ca963bb278ec6f23022afd12abb3f4bea9ef636da9402c65c1ab90",
+    "bytes": 4303,
+    "truncated": false
+  },
+  {
+    "id": "openvid-card",
+    "url": "https://huggingface.co/datasets/nkp37/OpenVid-1M/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:22:20.467873+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/nkp37/OpenVid-1M/raw/main/README.md",
+    "sha256": "5cc2e75d41734bbb86848b3ffb0ff4c90920fd166bae0f8ce15530ef492fb697",
+    "bytes": 6313,
+    "truncated": false
+  },
+  {
+    "id": "osworld-head",
+    "url": "https://api.github.com/repos/xlang-ai/OSWorld/commits/main",
+    "accessed_at": "2026-10-11T22:27:10.332063+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/xlang-ai/OSWorld/commits/main",
+    "sha256": "fab895af6afa26bc6545e119e29ada28d23caea57461b6b80276741a588c3502",
+    "bytes": 7205,
+    "truncated": false
+  },
+  {
+    "id": "osworld2-head",
+    "url": "https://api.github.com/repos/xlang-ai/OSWorld-V2/commits/main",
+    "accessed_at": "2026-10-11T22:27:10.359759+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/xlang-ai/OSWorld-V2/commits/main",
+    "sha256": "e83bafde3441bf7d7ad02e8136c543fcdacfb76aa105f2e17d1e72e3fc31e143",
+    "bytes": 8449,
+    "truncated": false
+  },
+  {
+    "id": "osworld2-readme",
+    "url": "https://raw.githubusercontent.com/xlang-ai/OSWorld-V2/main/README.md",
+    "accessed_at": "2026-10-11T22:27:10.301037+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/xlang-ai/OSWorld-V2/main/README.md",
+    "sha256": "0d1d3e91e8786720a167b8bc26a41bd27832eefae652ab1c166193073e99b2b4",
+    "bytes": 22045,
+    "truncated": false
+  },
+  {
+    "id": "osworld2-releases",
+    "url": "https://api.github.com/repos/xlang-ai/OSWorld-V2/releases?per_page=5",
+    "accessed_at": "2026-10-11T22:27:10.329231+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/xlang-ai/OSWorld-V2/releases?per_page=5",
+    "sha256": "ee594efc089f4800b253d255bb4e721d64c5570e801f651fc8d042d30c2475a1",
+    "bytes": 11820,
+    "truncated": false
+  },
+  {
+    "id": "osworld2-tag",
+    "url": "https://api.github.com/repos/xlang-ai/OSWorld-V2/commits/osworld-v2.1",
+    "accessed_at": "2026-10-11T22:35:31.662873+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/xlang-ai/OSWorld-V2/commits/osworld-v2.1",
+    "sha256": "00454bd39672c4951ec4ef40214c19ab0265d82f775c5970c4bd44af11bb7aef",
+    "bytes": 10762,
+    "truncated": false
+  },
+  {
+    "id": "ovi-api",
+    "url": "https://huggingface.co/api/models/chetwinlow1/Ovi",
+    "accessed_at": "2026-10-11T22:35:31.656892+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models/chetwinlow1/Ovi",
+    "sha256": "9d4610f2150f0e9012ac23504cd65d8c9607ce3a0a56841423f355a7a25e40e6",
+    "bytes": 2817,
+    "truncated": false
+  },
+  {
+    "id": "ovi-card",
+    "url": "https://huggingface.co/chetwinlow1/Ovi/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:35:31.658671+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/chetwinlow1/Ovi/raw/main/README.md",
+    "sha256": "ccc60cc8a99cc1cd77ea89c2870d360b8ed0fda59d82333390d4b74424c6aa6b",
+    "bytes": 16186,
+    "truncated": false
+  },
+  {
+    "id": "ovi-license",
+    "url": "https://huggingface.co/chetwinlow1/Ovi/raw/main/LICENSE",
+    "accessed_at": "2026-10-11T22:35:31.658671+00:00",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "truncated": false
+  },
+  {
+    "id": "ovi-readme",
+    "url": "https://raw.githubusercontent.com/character-ai/Ovi/main/README.md",
+    "accessed_at": "2026-10-11T22:27:10.838712+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/character-ai/Ovi/main/README.md",
+    "sha256": "3872579e8e42fcf25edb3235445e128f30415008936c85725d2eebb2fe05059f",
+    "bytes": 16059,
+    "truncated": false
+  },
+  {
+    "id": "panda-readme",
+    "url": "https://raw.githubusercontent.com/snap-research/Panda-70M/main/README.md",
+    "accessed_at": "2026-10-11T22:22:20.471576+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/snap-research/Panda-70M/main/README.md",
+    "sha256": "1dfc8e5d881ab3dc937495317290725497d65193e179a8b4c9b1b4a101e3cc9f",
+    "bytes": 8993,
+    "truncated": false
+  },
+  {
+    "id": "perf-api",
+    "url": "https://huggingface.co/api/datasets/Hcompany/h_cua_perf",
+    "accessed_at": "2026-10-11T22:15:55.715000+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/datasets/Hcompany/h_cua_perf",
+    "sha256": "42dd70423e8dcb53d1e0c6d8867feb12bde138a9ef2b452af7f0e1047266ef17",
+    "bytes": 1568,
+    "truncated": false
+  },
+  {
+    "id": "perf-card",
+    "url": "https://huggingface.co/datasets/Hcompany/h_cua_perf/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:15:55.713929+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/h_cua_perf/raw/main/README.md",
+    "sha256": "ab108a36526d6071c9cbffaea6aef80c000be84bcadab6af5492e2a279f0742e",
+    "bytes": 9539,
+    "truncated": false
+  },
+  {
+    "id": "perf-meta",
+    "url": "https://huggingface.co/datasets/Hcompany/h_cua_perf/raw/main/h_cua.meta.json",
+    "accessed_at": "2026-10-11T22:22:21.740806+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/h_cua_perf/raw/main/h_cua.meta.json",
+    "sha256": "37fd8d92f5d9458f5a6b6aac56d9506681ac98d45854ab0d68a1cc2715da6ec1",
+    "bytes": 25833,
+    "truncated": false
+  },
+  {
+    "id": "perf-pinned-README-md",
+    "url": "https://huggingface.co/datasets/Hcompany/h_cua_perf/raw/c13201944c7b9769e86357adcfd9bc8d991d46de/README.md",
+    "accessed_at": "2026-10-11T22:27:09.451586+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/h_cua_perf/raw/c13201944c7b9769e86357adcfd9bc8d991d46de/README.md",
+    "sha256": "ab108a36526d6071c9cbffaea6aef80c000be84bcadab6af5492e2a279f0742e",
+    "bytes": 9539,
+    "truncated": false
+  },
+  {
+    "id": "perf-processor",
+    "url": "https://huggingface.co/datasets/Hcompany/h_cua_perf/raw/c13201944c7b9769e86357adcfd9bc8d991d46de/trace_processor.py",
+    "accessed_at": "2026-10-11T22:35:31.664326+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/h_cua_perf/raw/c13201944c7b9769e86357adcfd9bc8d991d46de/trace_processor.py",
+    "sha256": "84a12096eeaca40d84485c7c0ef2e38db79fac67e3b9d84febc549b40ad90d90",
+    "bytes": 15600,
+    "truncated": false
+  },
+  {
+    "id": "qwen36-card",
+    "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:38.093378+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/raw/main/README.md",
+    "sha256": "c4ddaa065649ff6352648f64747a16eda31726f3e34add94ce04abb461c77b75",
+    "bytes": 64550,
+    "truncated": false
+  },
+  {
+    "id": "rea-cli",
+    "url": "https://raw.githubusercontent.com/morluto/rea/main/docs/guide/cli.md",
+    "accessed_at": "2026-10-11T22:19:38.283168+00:00",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found",
+    "truncated": false
+  },
+  {
+    "id": "rea-license",
+    "url": "https://raw.githubusercontent.com/morluto/rea/main/LICENSE",
+    "accessed_at": "2026-10-11T22:15:55.716014+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/morluto/rea/main/LICENSE",
+    "sha256": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b",
+    "bytes": 1064,
+    "truncated": false
+  },
+  {
+    "id": "rea-package",
+    "url": "https://registry.npmjs.org/rea-agents/latest",
+    "accessed_at": "2026-10-11T22:15:55.716014+00:00",
+    "status": 200,
+    "final_url": "https://registry.npmjs.org/rea-agents/latest",
+    "sha256": "42ff9a054d9273863ad715bd57658d4a503a2eff95083a837e9400f9b010e983",
+    "bytes": 17737,
+    "truncated": false
+  },
+  {
+    "id": "rea-readme",
+    "url": "https://raw.githubusercontent.com/morluto/rea/main/README.md",
+    "accessed_at": "2026-10-11T22:15:55.716014+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/morluto/rea/main/README.md",
+    "sha256": "b2547165f09de3e44236cb2e0130c7b3164277ba957bacda99c1648abcc51c7e",
+    "bytes": 18436,
+    "truncated": false
+  },
+  {
+    "id": "realestate-readme",
+    "url": "https://google.github.io/realestate10k/",
+    "accessed_at": "2026-10-11T22:22:21.022375+00:00",
+    "status": 200,
+    "final_url": "https://google.github.io/realestate10k/",
+    "sha256": "6da5e6de715a1935367d153f5cf942aac404b23693c13594e27ead4aa0187751",
+    "bytes": 2923,
+    "truncated": false
+  },
+  {
+    "id": "runpod-pricing",
+    "url": "https://www.runpod.io/pricing",
+    "accessed_at": "2026-10-11T22:19:38.234691+00:00",
+    "status": 200,
+    "final_url": "https://www.runpod.io/pricing",
+    "sha256": "c8e25003486e057baa82837a1fa367e784ae52faa3dd39fdca1a3f162ec7c76e",
+    "bytes": 321404,
+    "truncated": false
+  },
+  {
+    "id": "seedance2-pdf",
+    "url": "https://arxiv.org/pdf/2604.14148",
+    "accessed_at": "2026-10-11T22:27:10.790868+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/pdf/2604.14148",
+    "sha256": "b8a169f36db23966158c7db305986fe89b2f3d945e45987290942842daedcac9",
+    "bytes": 2983402,
+    "truncated": false
+  },
+  {
+    "id": "showui-card",
+    "url": "https://huggingface.co/showlab/ShowUI-2B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:38.090559+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/showlab/ShowUI-2B/raw/main/README.md",
+    "sha256": "40946552d4ce1625d6c234b8b85b33bf70765f1c76a6e56c678cc1ac2d2a72b5",
+    "bytes": 7410,
+    "truncated": false
+  },
+  {
+    "id": "trajectories-api",
+    "url": "https://huggingface.co/api/datasets/Hcompany/trajectories",
+    "accessed_at": "2026-10-11T22:15:55.152725+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/datasets/Hcompany/trajectories",
+    "sha256": "f18f1180c4027dc386950d5018ac9c1291d2c6c7b1dd15c5cfcb38cea2df0cf0",
+    "bytes": 3406897,
+    "truncated": false
+  },
+  {
+    "id": "trajectories-card",
+    "url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:15:55.152725+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/main/README.md",
+    "sha256": "ee2feb78fb0ee48bc89f8f0af9aff178ac678464afe0782901812a3719dea89e",
+    "bytes": 2031,
+    "truncated": false
+  },
+  {
+    "id": "trajectories-index",
+    "url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/ede2a362c99ddba0d03f439c47a0b8fea6abae22/data/index.json",
+    "accessed_at": "2026-10-11T22:27:10.168998+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/ede2a362c99ddba0d03f439c47a0b8fea6abae22/data/index.json",
+    "sha256": "a8525624049894e1aeb220790ed8c013067a99f2ffdbcb938d5a4cef91f0cf53",
+    "bytes": 5046690,
+    "truncated": false
+  },
+  {
+    "id": "trajectories-pinned-README-md",
+    "url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/ede2a362c99ddba0d03f439c47a0b8fea6abae22/README.md",
+    "accessed_at": "2026-10-11T22:27:09.306379+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/ede2a362c99ddba0d03f439c47a0b8fea6abae22/README.md",
+    "sha256": "ee2feb78fb0ee48bc89f8f0af9aff178ac678464afe0782901812a3719dea89e",
+    "bytes": 2031,
+    "truncated": false
+  },
+  {
+    "id": "trajectory-record-0",
+    "url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/ede2a362c99ddba0d03f439c47a0b8fea6abae22/data/t/001-28b545ae.json",
+    "accessed_at": "2026-10-11T22:27:09.385836+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/ede2a362c99ddba0d03f439c47a0b8fea6abae22/data/t/001-28b545ae.json",
+    "sha256": "c212d8dc121025705c4428204b6d96cdef0a459f3ea21a897189bd055901df9c",
+    "bytes": 133871,
+    "truncated": false
+  },
+  {
+    "id": "trajectory-record-1",
+    "url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/ede2a362c99ddba0d03f439c47a0b8fea6abae22/data/t/001-c2d7bf3a.json",
+    "accessed_at": "2026-10-11T22:27:09.451586+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/Hcompany/trajectories/raw/ede2a362c99ddba0d03f439c47a0b8fea6abae22/data/t/001-c2d7bf3a.json",
+    "sha256": "d7680e7908b4de53f6b5376f62099f90cfa847756eb30a4ab300433f7bb1cf8e",
+    "bytes": 147568,
+    "truncated": false
+  },
+  {
+    "id": "uitars-card",
+    "url": "https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:38.026634+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B/raw/main/README.md",
+    "sha256": "fd6ebdc23c119b356e12876c964597d2920e3a2878424a6b5a5b8706e6bc23c4",
+    "bytes": 8370,
+    "truncated": false
+  },
+  {
+    "id": "uitars2-card",
+    "url": "https://huggingface.co/ByteDance-Seed/UI-TARS-2/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:19:38.062536+00:00",
+    "status": "error",
+    "error": "HTTP Error 401: Unauthorized",
+    "truncated": false
+  },
+  {
+    "id": "vbench-head",
+    "url": "https://api.github.com/repos/Vchitect/VBench/commits/master",
+    "accessed_at": "2026-10-11T22:27:10.331249+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/Vchitect/VBench/commits/master",
+    "sha256": "7121162e02bff201ab7bfe0f3947ebe6a5d4dcc05a7c68e13f5b6148bc2be979",
+    "bytes": 6912,
+    "truncated": false
+  },
+  {
+    "id": "vbench-readme",
+    "url": "https://raw.githubusercontent.com/Vchitect/VBench/master/README.md",
+    "accessed_at": "2026-10-11T22:27:10.296358+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Vchitect/VBench/master/README.md",
+    "sha256": "9f5db5e459cc216e49e0e151a8b242aec8cc98b5f826716825e8369a3669d5c3",
+    "bytes": 34512,
+    "truncated": false
+  },
+  {
+    "id": "vggsound-readme",
+    "url": "https://www.robots.ox.ac.uk/~vgg/data/vggsound/",
+    "accessed_at": "2026-10-11T22:22:21.200824+00:00",
+    "status": 200,
+    "final_url": "https://www.robots.ox.ac.uk/~vgg/data/vggsound/",
+    "sha256": "33d2c7dd5d8dcc878d772f485380cbe2b56b04fd54be9929612dfd892c602e8e",
+    "bytes": 19722,
+    "truncated": false
+  },
+  {
+    "id": "videdit-search",
+    "url": "https://huggingface.co/api/datasets?search=video%20editing&limit=10",
+    "accessed_at": "2026-10-11T22:22:21.216907+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/datasets?search=video%20editing&limit=10",
+    "sha256": "9fefa99b399255558c92dd67061d9a3a2b9a81afc94434d67bac920433abd6da",
+    "bytes": 8268,
+    "truncated": false
+  },
+  {
+    "id": "wan-api",
+    "url": "https://huggingface.co/api/models/Wan-AI/Wan2.2-T2V-A14B",
+    "accessed_at": "2026-10-11T22:15:55.965244+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models/Wan-AI/Wan2.2-T2V-A14B",
+    "sha256": "5da82bf3f82231d25684b8339ec40b4092874dc7e45f4bacda5710de5fcbd3ea",
+    "bytes": 5914,
+    "truncated": false
+  },
+  {
+    "id": "wan-card",
+    "url": "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:15:55.872141+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B/raw/main/README.md",
+    "sha256": "45aca8eac89096edafa083cd12b4842a696317c318cdfdfd7b1ce4a5840d537f",
+    "bytes": 17169,
+    "truncated": false
+  },
+  {
+    "id": "wan-config",
+    "url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/wan/configs/wan_t2v_A14B.py",
+    "accessed_at": "2026-10-11T22:27:10.723803+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/wan/configs/wan_t2v_A14B.py",
+    "sha256": "a1f3a70472aece6d7a3cfe83ed39be829e957484db23069c13c7a3c35ac07a48",
+    "bytes": 1023,
+    "truncated": false
+  },
+  {
+    "id": "wan-head",
+    "url": "https://api.github.com/repos/Wan-Video/Wan2.2/commits/main",
+    "accessed_at": "2026-10-11T22:27:10.412940+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/Wan-Video/Wan2.2/commits/main",
+    "sha256": "bd08fa1aadf5f65c9f12fb4aa5b30f4ff7886201b4a12043834c6856763b7573",
+    "bytes": 6875,
+    "truncated": false
+  },
+  {
+    "id": "wan-license",
+    "url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/LICENSE.txt",
+    "accessed_at": "2026-10-11T22:35:31.654792+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/LICENSE.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "truncated": false
+  },
+  {
+    "id": "wan-pinned-README-md",
+    "url": "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B/raw/c8c270b13ee05bfa474194ac9fb07a5868a97cea/README.md",
+    "accessed_at": "2026-10-11T22:27:09.822741+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B/raw/c8c270b13ee05bfa474194ac9fb07a5868a97cea/README.md",
+    "sha256": "45aca8eac89096edafa083cd12b4842a696317c318cdfdfd7b1ce4a5840d537f",
+    "bytes": 17169,
+    "truncated": false
+  },
+  {
+    "id": "wan-readme",
+    "url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/README.md",
+    "accessed_at": "2026-10-11T22:15:55.718031+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/README.md",
+    "sha256": "40222cb3a66cc89aa1cd84589d1fa696806c93c09cf1c4383b3994139202dfa1",
+    "bytes": 35804,
+    "truncated": false
+  },
+  {
+    "id": "wan-repack-api",
+    "url": "https://huggingface.co/api/models/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+    "accessed_at": "2026-10-11T22:59:05.686954+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/models/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+    "sha256": "08811704787dd33ea7985f8c4808fc55ad76fdfe8f1e3500c742fc715487391f",
+    "bytes": 5339,
+    "truncated": false
+  },
+  {
+    "id": "wan-repack-card",
+    "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/raw/main/README.md",
+    "accessed_at": "2026-10-11T22:59:05.688885+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/raw/main/README.md",
+    "sha256": "c5f31703b82a568ca7aaa49482d1698e74f665e1cf92b47148ad22c01305084d",
+    "bytes": 5976,
+    "truncated": false
+  },
+  {
+    "id": "exa-benchmarks-current",
+    "urls": [
+      "https://aievals.app/benchmarks/osworld-2",
+      "https://arxiv.org/html/2606.29537",
+      "https://benchmarkregistry.org/benchmarks/osworld/2.0-v2026.08.08-offline-partial",
+      "https://github.com/xlang-ai/OSWorld-V2",
+      "https://github.com/xlang-ai/OSWorld-V2/blob/main/README.md",
+      "https://github.com/xlang-ai/OSWorld-V2/releases",
+      "https://osworld-v2.xlang.ai/",
+      "https://paperswithcode.co/benchmark/osworld-2-0-0808-offline-82-tasks"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "de438b02e2e27534cc9100087feaff6ac3a642f7dd063ee25fa5cef331ddaef4",
+    "bytes": 35864,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-closed-competitors",
+    "urls": [
+      "https://deepmind.google/models/veo/",
+      "https://lumalabs.ai/",
+      "https://openai.com/sora/",
+      "https://pika.art/",
+      "https://runwayml.com/research",
+      "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "e7d31279d7c43b82ba222fec320f04ece34045bb13e5a4e24b0834d258a8f06d",
+    "bytes": 35088,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-closed-models",
+    "urls": [
+      "https://aicreatorhub.net/news/hailuo-3-seedance-2-5-vs-veo-kling-sora-video-ai-2026",
+      "https://aitoolsmind.com/best-ai-video-generators/",
+      "https://kreatorflow.ai/guides/best-ai-video-generators-2026",
+      "https://lumalabs.ai/news/seedance-2.5-live-in-luma",
+      "https://seed.bytedance.com/en/blog/seedance-2-0-official-launch",
+      "https://wdmorgan.com/blog/seedance-2-ai-video-trends/",
+      "https://www.chatpicture.com/en/blog/the-ai-video-price-war-luma-cut-seedance-rates-by-up-to-73-and-runway-started-selling-rivals",
+      "https://www.clipspeed.ai/blog/best-ai-video-generators-2026.html",
+      "https://www.clipspeed.ai/blog/veo-vs-seedance-vs-kling.html",
+      "https://www.youngju.dev/blog/culture/2026-05-14-ai-video-generation-2026-sora-veo-runway-pika-kling-luma-hailuo-comparison-deep-dive.en"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "4fe3470278159314714b5c0e398f5329aa15c4c151da91ef1ba53d68f82386b3",
+    "bytes": 40595,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-dataset-cards",
+    "urls": [
+      "https://github.com/snap-research/Panda-70M",
+      "https://huggingface.co/datasets/HuggingFaceFV/finevideo/blob/main/README.md",
+      "https://huggingface.co/datasets/nkp37/OpenVid-1M"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "9b964d123952df4cee11cbea075e3361d9e255dbaca318e8c717da05b63ff8bd",
+    "bytes": 47085,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-datasets-expanded",
+    "urls": [
+      "https://arxiv.org/html/2407.02371v1",
+      "https://arxiv.org/html/2407.02371v3",
+      "https://github.com/NJU-PCALab/OpenVid-1M?tab=readme-ov-file",
+      "https://github.com/OpenVE-Team/OpenVE-3M",
+      "https://huggingface.co/datasets/TencentARC/MiraData",
+      "https://huggingface.co/datasets/TencentARC/MiraData/raw/main/README.md",
+      "https://huggingface.co/datasets/nkp37/OpenVid-1M",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/0396ca5a4c628936609aa819bfbca916-Paper-Conference.pdf"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "6455e0326d8c5ef9355507f823b4a65f6b8bf1f23fd17c75ebc719259d9b1bcb",
+    "bytes": 42950,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-final-primary",
+    "urls": [
+      "https://deepmind.google/models/veo/",
+      "https://github.com/character-ai/Ovi",
+      "https://huggingface.co/chetwinlow1/Ovi"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "fd00998e443047e44f18e34be6ce168144f886abaf6b7b058d5da0f595317cac",
+    "bytes": 50222,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-finevideo-full",
+    "urls": [
+      "https://huggingface.co/datasets/HuggingFaceFV/finevideo/blob/main/README.md",
+      "https://huggingface.co/datasets/TencentARC/MiraData/blob/main/README.md"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "8b6f78e80a00d18bbdb7a06f1f1b343cd9e7833460ba77862a6c6066ac6857df",
+    "bytes": 32189,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-gpu-free",
+    "urls": [
+      "https://colab.research.google.com/signup",
+      "https://huggingface.co/docs/hub/main/en/jobs-pricing",
+      "https://research.google.com/colaboratory/intl/en-GB/faq.html",
+      "https://www.kaggle.com/general/108481",
+      "https://www.kaggle.com/product-feedback/173129"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "5626878aa782668131fdc5a471a0f79f997ad40d68913e0ddd2a63747e5c090e",
+    "bytes": 9093,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-grounders",
+    "urls": [
+      "http://www.github.com/microsoft/fara",
+      "https://ai.azure.com/catalog/models/microsoft-fara-7b",
+      "https://huggingface.co/microsoft/Fara-7B",
+      "https://www.microsoft.com/en-us/research/blog/fara-7b-an-efficient-agentic-model-for-computer-use/",
+      "https://www.microsoft.com/en-us/research/publication/fara-7b-an-efficient-agentic-model-for-computer-use/"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "2835639ad9a0ecbb6e937ce6fdcffdf8f63c4b17a651e75acdcda95f88dea371",
+    "bytes": 10641,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-hala-challengers",
+    "urls": [
+      "https://aiwiki.ai/wiki/ui_tars",
+      "https://arxiv.org/abs/2607.28227",
+      "https://arxiv.org/html/2501.12326v1",
+      "https://arxiv.org/html/2509.02544v2",
+      "https://dev.to/agdex_ai/beyond-the-browser-building-desktop-gui-agents-in-2026-with-ui-tars-claude-computer-use-and-2gpe",
+      "https://github.com/bytedance/UI-TARS",
+      "https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B",
+      "https://huggingface.co/ByteDance-Seed/UI-TARS-7B-DPO",
+      "https://huggingface.co/ByteDance-Seed/UI-TARS-7B-DPO/raw/864ccd9b9600d3d701640f856586cc541465e424/README.md",
+      "https://huggingface.co/ByteDance-Seed/UI-TARS-7B-SFT"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "1ec90f49140091f4d990a1cbf9b1b9fbf09371e81e24bc3ec3c6d38f036f030e",
+    "bytes": 43144,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-holo4-news",
+    "urls": [
+      "https://hcompany.ai/newsroom/holo4"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "89a673acd98dd3238cf50eda05aea63e321c3f047881a948db20930fdda23240",
+    "bytes": 15464,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-kling-current",
+    "urls": [
+      "https://klingai.com/blog/kling-4-vs-3",
+      "https://klingai.com/blog/kling40-kling-visual-realism-creative-control-introducing-storytelling",
+      "https://klingai.com/document-api/api/video/3-0-turbo/text-to-video",
+      "https://klingai.com/document-api/llms.txt",
+      "https://klingai.com/release-note/release-notes/Kling_4"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "8e2200a6f341169f2ca9ba33d650721c49abd740e8076dc4958d502908a4734e",
+    "bytes": 3242,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-last-access",
+    "urls": [
+      "https://hf.co/docs/hub/storage-limits",
+      "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "6c742711284a35a344fd08c6ea6204eb80dc8966dd12a2878a93a7212f2126a4",
+    "bytes": 13438,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-ltx25",
+    "urls": [
+      "https://github.com/Lightricks/LTX-2/blob/main/LICENSE.md",
+      "https://github.com/lightricks/ltx-2",
+      "https://huggingface.co/Lightricks/LTX-2.5",
+      "https://huggingface.co/Lightricks/LTX-2.5/blob/main/README.md",
+      "https://ltx.io/model/ltx-2-5"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "91c637cbb1ccbf480b86d7eb7d4cb7dd01934554676598f9998fe4a0c0e84742",
+    "bytes": 18535,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-luma-pika",
+    "urls": [
+      "https://dev.pika.art/models/pika/pika-2.5/image-to-video",
+      "https://dev.pika.art/models/pika/pika-2.5/text-to-video",
+      "https://lumalabs.ai/learning-center/articles/ray-3-2-controls-and-workflows-in-depth",
+      "https://lumalabs.ai/news/introducing-ray-3-2",
+      "https://lumalabs.ai/ray3-2"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "c7e7f711d1ad5a15e1b33d94d62b329cedba09e605c0fe834c7f9fb881467ad2",
+    "bytes": 9416,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-minimax-h3",
+    "urls": [
+      "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/QA-about-License.md",
+      "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/refs%2Fpr%2F107/LICENSE",
+      "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/refs%2Fpr%2F5/LICENSE",
+      "https://www.minimax.io/news/minimax-h3-open-source"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "8dea5654d1fa4e435275f304e7c9980d2da9321536d42f042d161e486535c817",
+    "bytes": 9086,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-permissive-video",
+    "urls": [
+      "https://arxiv.org/html/2510.22200",
+      "https://github.com/meituan-longcat/LongCat-Video/",
+      "https://github.com/meituan-longcat/LongCat-Video/blob/1fbd4acc/README.md",
+      "https://huggingface.co/meituan-longcat/LongCat-Video",
+      "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar",
+      "https://long-cat.org/compare/longcat-video-and-wan-2-2",
+      "https://model.aibase.com/models/details/1976195580187381760",
+      "https://www.ailinklab.com/en/opensource/longcat-video/"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "c421770ed5dc9a86ccc88ded27e9cc49530b01059d468ae0f7ea17834bd4fa10",
+    "bytes": 34128,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-providers",
+    "urls": [
+      "https://aifinresearch.com/guides/vast-ai-vs-runpod/",
+      "https://comparetiers.com/compare/hugging-face-vs-runpod",
+      "https://runpod-b18f5ded.mintlify.app/references/gpu-types",
+      "https://vast.ai/pricing",
+      "https://www.runpod.io/articles/guides/ai-server-cost",
+      "https://www.runpod.io/gpu-instance/pricing",
+      "https://www.runpod.io/pricing",
+      "https://www.runpod.io/product/cloud-gpus"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "ada45c2b17ecb0859be48a447c202b48a6802972253d9c54e7ef9fd7f8e19670",
+    "bytes": 36711,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-review-tool",
+    "urls": [
+      "https://github.com/alibaba/open-code-review",
+      "https://github.com/alibaba/open-code-review/blob/HEAD/skills/open-code-review/SKILL.md",
+      "https://github.com/alibaba/open-code-review/blob/main/README.md",
+      "https://github.com/alibaba/open-code-review/blob/v1.0.9/README.md",
+      "https://www.npmjs.com/package/@alibaba-group/open-code-review"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "ff88e6268e6ab6bc3333d516644e8c968f65a970a2d5d2f007e7682d4486f5f4",
+    "bytes": 24041,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-runway-current",
+    "urls": [
+      "https://academy.runwayml.com/models-pricing",
+      "https://dev.runwayml.com/learn/generate-product-videos",
+      "https://docs.dev.runwayml.com/recipes/multi-shot-video/",
+      "https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5",
+      "https://help.runwayml.com/hc/en-us/articles/51200254894483-Multi-Shot-Video"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "7b130911ffeb73b58bbb23daa6e16658930dc4b3bad44c7e2ef77999fcdc81d6",
+    "bytes": 11810,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-seedance-papers",
+    "urls": [
+      "https://arxiv.org/html/2506.09113v1",
+      "https://arxiv.org/html/2604.14148v1"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "5ab03d849332f0bdd46e016e3cee2be5d7adbae09a40f727f3c02321608337dd",
+    "bytes": 51547,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-seedance",
+    "urls": [
+      "https://arxiv.org/html/2506.09113v1",
+      "https://arxiv.org/pdf/2604.14148",
+      "https://arxiv.science/abs/2604.14148",
+      "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/Seedance%201.0%20Paper.pdf",
+      "https://www.opentrain.ai/papers/seedance-2-0-advancing-video-generation-for-world-complexity--arxiv-2604.14148/"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "b9f2b103ee6b11691b7456e004d407e3b266ea62cdd2f92e4be450d834257b91",
+    "bytes": 27992,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-seedance25",
+    "urls": [
+      "https://aiwiki.ai/wiki/seedance_2_5",
+      "https://howaiworks.ai/models/seedance",
+      "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
+      "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "389dde606b9848d9764e6894a7d270752cacfcc23b1d8cfb34af2bfdd5f440f7",
+    "bytes": 14583,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-sora-current",
+    "urls": [
+      "https://community.openai.com/t/is-the-sora-api-available-through-third-party-platforms-until-september/1380077/1",
+      "https://community.openai.com/t/is-the-sora2-api-still-working/1379946/1",
+      "https://community.openai.com/t/save-the-sora-2-api-and-please-do-not-discontinue/1384892/2",
+      "https://developers.openai.com/api/docs/guides/video-generation",
+      "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "08210faac759c938bff6ce2630dd38e9ddc93bd5d010ed756bb5e3c963a68dff",
+    "bytes": 3988,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-storage-licenses",
+    "urls": [
+      "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x",
+      "https://huggingface.co/Lightricks/LTX-2.5/blob/main/README.md",
+      "https://huggingface.co/docs/hub/storage-limits",
+      "https://www.runpod.io/pricing"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "d7a8f03ff9353f29b906ee343a8b5911e5fccf0b725a4c7720a9783359019252",
+    "bytes": 59077,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-vbench-aa",
+    "urls": [
+      "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "https://github.com/Vchitect/VBench",
+      "https://github.com/xlang-ai/OSWorld-V2"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "806a05dc9df09df10e235ec85eb766dc06a388240af7ee96c320985d6afdcf4b",
+    "bytes": 48796,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-video-data",
+    "urls": [
+      "https://arxiv.org/html/2407.06358",
+      "https://github.com/mira-space/MiraData",
+      "https://github.com/snap-research/Panda-70M",
+      "https://github.com/snap-research/Panda-70M/blob/main/README.md",
+      "https://huggingface.co/blog/fine-video",
+      "https://huggingface.co/datasets/HuggingFaceFV/finevideo",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Panda-70M_Captioning_70M_Videos_with_Multiple_Cross-Modality_Teachers_CVPR_2024_paper.pdf",
+      "https://research.snap.com/publications/panda-70m-captioning-70m-videos-with-multiple-cross-modality-teachers.html"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "05959216f91192e2a67672ef728d2a905cc2fd020485ef9805fcccf9638d8fe7",
+    "bytes": 23845,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  },
+  {
+    "id": "exa-video-landscape",
+    "urls": [
+      "https://arxiv.org/",
+      "https://arxiv.org/html/2511.18870v1",
+      "https://arxiv.org/html/2609.30221",
+      "https://arxiv.org/pdf/2511.18870v2",
+      "https://arxiv.science/abs/2503.09642",
+      "https://arxiv.science/abs/2503.20314",
+      "https://github.com/",
+      "https://github.com/wan-video/Wan2.2",
+      "https://huggingface.co/",
+      "https://jstechlog.com/en/posts/video-ai-opensource-guide/"
+    ],
+    "accessed_on_local_date": "2026-10-12",
+    "status": "provider_returned",
+    "sha256": "83e45b63e03923d980dc254a338dad375ab6b577a1732457799a33177d7e9cf5",
+    "bytes": 43281,
+    "digest_scope": "Exa response JSON, not publisher HTML",
+    "note": "Some response URLs failed or content was length-limited. Human interpretation is in the reports; search hits alone are not verified facts."
+  }
+]
