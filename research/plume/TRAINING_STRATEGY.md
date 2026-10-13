@@ -19,7 +19,7 @@ Official T2V config: boundary 0.875, shift 12,40 steps, guidance(low 3, high 4);
 
 DiffSynth's high example uses scheduler index fractions **max_timestep_boundary 0.417/min 0**, mapped in the script to 875–1000. Its low example uses max 1/min 0.417. These are **not** raw normalized timesteps; copying 0.417 into Musubi changes the experiment. Freeze noise schedule and record sampled histogram before trusting a training run.
 
-Wan 2.2 A14B uses **Wan 2.1_VAE.pth**, not 5B's Wan 2.2 VAE. T5 UMT5-XXL is required; CLIP is not required for 2.2 A14B. The selected trainer expects a compatible single DiT safetensors representation, so use a pinned Comfy-Org **fp 16 non-scaled** re pack with SHA verification and trace it to the official base. Conversion requires a tensor-name/shape/hash inventory; changing numerical representation must not silently change the baseline. Model retrieval occurs remotely only.
+Wan 2.2 A14B uses **Wan 2.1_VAE.pth**, not 5B's Wan 2.2 VAE. T5 UMT5-XXL is required; CLIP is not required for 2.2 A14B. The selected trainer's shard loader expands the original BF16 Wan `diffusion_pytorch_model-00001-of-00006.safetensors` naming pattern to all six shards. PB01 therefore uses the pinned original BF16 high-noise shards with `--mixed_precision bf16`; it does **not** use an FP16 Comfy repack. The Wan trainer asserts that FP16 DiT requires FP16/no mixed precision and BF16 DiT requires BF16/no mixed precision. Verify revision, LFS/file hashes, tensor names/shapes and strict loading on remote scratch before training. Source inspection confirms the code path, not a successful model load or optimizer step. [PB01 package](../../experiments/plume/PB01/README.md).
 
 ## First training intervention
 
