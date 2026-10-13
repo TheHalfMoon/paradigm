@@ -12,4 +12,3 @@
 | Output and quality | Cache, train and sample scripts are source-aligned at the inspected revision. | No cached latents, optimizer step, saved adapter, reloaded baseline, generated video, VRAM or throughput measurement exists. Source compatibility is **not** a successful run. |
 
 PB00 on an approved remote GPU must verify exact HF revision and every shard/index/auxiliary hash, dtype/key count, strict load, latent/T5 shape, finite 20-step loss, nonzero LoRA gradients, unchanged low expert, saved/reloaded adapter equality, peak GPU/host memory, step time and full-cycle budget projection. Stop on OOM, nonfinite loss, wrong interval, unexpected missing keys or budget breach. Block swap and runtime FP8 are separately recorded alternatives, never silent changes to the BF16 baseline. No persistent weights/videos belong on the personal computer or in Paradigm Git.
-

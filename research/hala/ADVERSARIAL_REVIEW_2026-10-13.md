@@ -15,4 +15,3 @@ This is a documented challenge to the research route, not an independent model e
 | Dataset rights | Wrapper licenses do not clear every embedded video, sound, logo, person or UI screenshot. Benchmark task traces contaminate evaluation. | Asset-level admission records and task/source denylist. Reject ambiguous assets; regenerate synthetic alternatives. |
 
 The most damaging open uncertainty is **complete-task measurement**. Neither Hala nor Plume has an independently executed baseline. The plan therefore recommends experiment *order* and stop criteria, not quality leadership. [Source registry](../evidence/source-registry.json) records fetched source identities; [validation report](../../docs/VALIDATION_REPORT.md) records actual repository checks.
-
