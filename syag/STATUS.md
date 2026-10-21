@@ -35,3 +35,14 @@ No fabricated completion percentages. The 12 issues represent outstanding delive
 
 ## Future log format
 Each update must include YYYY-MM-DD UTC; repo/branch/HEAD; gate/issue; DONE/IN_PROGRESS/BLOCKED/NOT_STARTED; exact files and SHA; tests executed and outputs; dataset or checkpoint HFs committed IDs if real; risks/regressions; next smallest unblocked action; whether the sealed set stayed untouched. Update STATUS and GitHub issue together.
+
+## 2026-10-21 expansion: millions of documents and books
+
+**Documented request, not executed data/compute:** stretch target 5,000,000 rights-admitted unique pages for Syag, in checkpoints of 20k / 100k / 500k / 2M / 5M. Founder reports access to many books, but none were received, sampled or rights-cleared in this session. No new datasets, Kaggle notebooks, checkpoint jobs or HF uploads created.
+
+| Child workstream | Issue | Status | Next gate |
+| --- | --- | --- | --- |
+| S03a founder books | [#17](https://github.com/TheHalfMoon/paradigm/issues/17) | NOT STARTED | catalog exact books/formats/edition rights; 50-page verifiable pilot |
+| S05a Kaggle isolation | [#18](https://github.com/TheHalfMoon/paradigm/issues/18) | BLOCKED on eligible Kaggle access / terms verification | use syag- namespace in one compliant account, measure private quota/GPU and no Hala inputs |
+
+Relevant new runbooks: [MILLION_PAGE_STRATEGY](MILLION_PAGE_STRATEGY.md), [BOOKS_CORPUS](BOOKS_CORPUS.md), [KAGGLE_EXECUTION](KAGGLE_EXECUTION.md). Official Kaggle Terms currently prohibit a user operating two active accounts and contain a non-commercial-use clause; do not create a second personal active Kaggle account. Kaggle is not a multi-terabyte archive. Current dedicated Kaggle app/API is not exposed to this chat session; do not say it was connected or used.
