@@ -1,0 +1,37 @@
+{
+  "schema_version": "syag-run-manifest-v1",
+  "status": "NOT_RUN",
+  "project": "Syag",
+  "project_isolation": {
+    "kaggle_user": "VERIFY_IN_ACCOUNT_UI",
+    "kaggle_notebook_slug": "syag-finetune-qualification-v1",
+    "dataset_slug_prefix": "syag-",
+    "no_hala_input_check": false
+  },
+  "execution": {
+    "allowed_platform": "Kaggle only if current platform terms and intended use permit",
+    "gpu_quota_verified": false,
+    "accelerator": "UNVERIFIED",
+    "max_session_hours": "VERIFY_CURRENT_QUOTA",
+    "allow_paid_usage": false
+  },
+  "source": {
+    "git_commit_sha": "TO_FILL_FROM_ACTUAL_RUN",
+    "model_repo": "lightonai/LightOnOCR-3-0.8B",
+    "model_revision": "PIN_BEFORE_RUNNING",
+    "code_revision": "PIN_BEFORE_RUNNING",
+    "train_dataset_manifest_sha256": "MUST_BE_ADMITTED_BEFORE_RUNNING"
+  },
+  "outputs": {
+    "checkpoint_persisted_remote_uri": null,
+    "checksum": null,
+    "metrics_uri": null,
+    "raw_failure_report_uri": null
+  },
+  "safety": {
+    "no_benchmark_training_leakage_verified": false,
+    "privacy_and_training_rights_verified": false,
+    "original_model_notice_preserved": false
+  },
+  "notes": "Template only. Do not commit real tokens, secrets, private book scans, identity numbers or fake GPU success."
+}
