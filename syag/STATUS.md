@@ -3,7 +3,7 @@
 Last editorial update: 2026-10-21, before first Syag GPU/data ingestion. The default GitHub branch and issue bodies always take precedence if changed later.
 
 ## Delivery summary
-Planning and source research: **COMPLETE as documentation** after the planning PR merges. 
+Planning and source research: **COMPLETE as documentation**, merged under [PR #15](https://github.com/TheHalfMoon/paradigm/pull/15), commit f496185a59e40dcecad94b012b38506ad3fd1748; technical training/benchmarks still not performed. 
 Model weights fine-tuned: NONE VERIFIED. Dataset bytes ingested/admitted: NONE VERIFIED. HF dataset/model repositories: NONE VERIFIED. Benchmark results: NONE VERIFIED. Product deployment: NONE VERIFIED.
 No fabricated completion percentages. The 12 issues represent outstanding deliverable gates, not 12 equal percent units.
 
@@ -25,7 +25,7 @@ No fabricated completion percentages. The 12 issues represent outstanding delive
 
 ## Completed so far and source receipts
 - Syag dataset reconnaissance: 20 candidates in [registry](../datasets/syag/SOURCE_REGISTRY_2026-10-21.csv) and [research plan](../research/syag/2026-10-21/DATA_DISCOVERY_AND_ACQUISITION_PLAN.md), merged in PR #2 (commit ca2aff20fd9602312fec4412c295d8f2f605063b). Only metadata/source policy, no downloads.
-- Syag master/bench/data/organization plans and issue tracking: in this planning PR until merged. Track exact commit/PR from GitHub before claiming on main.
+- Syag master/benchmark/data/org/resume plan, root discovery links and 12 tracking issues #3–#14: **merged** in [PR #15](https://github.com/TheHalfMoon/paradigm/pull/15), commit f496185a59e40dcecad94b012b38506ad3fd1748. Documentation completion is not model completion.
 - No paid compute or personal data access was used.
 
 ## Next 3 unblocked actions
