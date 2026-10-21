@@ -101,3 +101,14 @@ Use STATUS.md and GitHub issues as source of truth. State every work item as DON
 4. Build 100-page Saudi dev pilot using held-out original template families, and baseline LightOn vs PaddleOCR vs Qwen in equal conditions with real measurements.
 5. Decide whether LightOn can learn Arabic and grounding without unacceptable regressions **before** spending large training hours. If proven unsuitable, change a decision record with evidence and maintain the single-Syag identity.
 6. Create training experiment YAML/manifest and a frozen benchmark harness; progress to S05 only with an actual qualified compute environment.
+
+## 2026-10-21 revision: five-million-page corpus and Kaggle workstream
+
+Founder confirmed books available and requested millions of documents and Kaggle-based training while separating Syag from Hala. This does **not** change the principle of one Syag model or authorize use of unrelated copyrighted books/personal documents.
+
+- Long-horizon research target: **5,000,000** unique original pages (not duplicated augmentations) with distinct OCR/structure label coverage; intermediate 20k -> 100k -> 500k -> 2M -> 5M gates. See [MILLION_PAGE_STRATEGY.md](MILLION_PAGE_STRATEGY.md).
+- Source roles: rights-scoped founder books [BOOKS_CORPUS.md](BOOKS_CORPUS.md), public third-party candidate sets under per-source admission, and original Saudi synthetic document factory. External benchmark test sets remain excluded regardless of published split label.
+- Kaggle is a **limited free compute/staging tool**, not a 5M-page full corpus store. See [KAGGLE_EXECUTION.md](KAGGLE_EXECUTION.md). Official private storage total 200GB, max one dataset 200GB, working output 20GB and time/quota restrictions, to be re-checked. User-requested second founder-operated active Kaggle account conflicts with Kaggle Terms; isolate projects under one compliant identity or obtain official permission for an organizational arrangement.
+- Kaggle Terms also describe use for internal personal non-commercial purposes. Confirm the intended commercial training is permitted by platform/provider before substantial commercial fine tuning; if not use another approved authorized compute environment. No circumventing GPU quotas.
+- A 5M-page all-GPU fine-tune on the free Kaggle weekly budget is **NOT** qualified or promised. Actual pilot throughput/memory measurements and credible GPU-hour calculations control feasibility; free compute may be too small.
+- Additional subprojects: [#17 founder books intake](https://github.com/TheHalfMoon/paradigm/issues/17) (child S03a) and [#18 Kaggle isolation/pilot](https://github.com/TheHalfMoon/paradigm/issues/18) (child S05a). Parent S03/S05 not complete merely from documenting work.
