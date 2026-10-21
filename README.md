@@ -16,3 +16,7 @@ Provisional foundations: **Wan2.2 T2V-A14B** for a camera/motion LoRA with LongC
 Keep videos, datasets and weights off GitHub and the personal computer. Approved payloads belong in privateHuggingFace repositories; remote workers use temporary processing storage. Do not accept access agreements, spend money, activate paid resources or publish restricted assets without explicit authorization. Original Paradigm code and documentation are Apache-2.0; this does not change third-party model/data licenses.
 
 To resume, read [AGENTS.md](AGENTS.md), inspect the live default branch/issues/PRs and exactHEAD, then follow CURRENT_STATUS. Run the offline validator and metadata tests before changes. Refresh mutable source licenses/prices before selecting a paid qualification quote. Use branches, focused commits and ordinary merge commits; preserve history.
+
+## Syag — Saudi Arabic Document Intelligence
+
+Syag is the single-model Arabic/Saudi OCR and document-understanding research program. **[Start here: Syag status, master plan, benchmark protocol, data factory and automatic continuation](syag/README.md)**. Its foundation is provisional until Arabic benchmarks pass; no trained checkpoint or record is claimed. Syag tracking tasks live in [GitHub issues](https://github.com/TheHalfMoon/paradigm/issues?q=is%3Aissue+Syag).

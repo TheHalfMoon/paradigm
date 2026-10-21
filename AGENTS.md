@@ -15,3 +15,7 @@
 - Use genuineREA/Jev/OCR/Graft/PStack capabilities whereapplicable; checkversion/compatibility/cost first. No CodeRabbit,Qodo,Cubic orcommercialreview service. Avoid globaltool/config changes.
 - Use `rg` first forsearch and `rtk` shellprefix whereinstalled. OnWindows use one shell/nativepath operations and verify resolvedtargets before recursive deletion/moves.
 - Update currentstatus, validationrecord andexperimentregistry after realwork. A successfulload,lowtrainingloss oronegoodoutput is notproof ofquality. Release/record claims require matchedsealed evaluation andindependentreplication.
+
+## Syag continuation (persistent)
+
+When asked to continue Syag, first read [syag/RESUME.md](syag/RESUME.md), [syag/STATUS.md](syag/STATUS.md), [syag/MASTER_PLAN.md](syag/MASTER_PLAN.md), the linked data/benchmark plans, and live Syag GitHub issues/PRs. Continue from the exact verified frontier; do not redo completed tasks or claim unrun training/benchmarks. The future GitHub org under Paradigm-AI is not yet provisioned in this connected account; keep current TheHalfMoon/paradigm/syag canonical until migration is verified. One Syag model, no Lite/Pro. Preserve founder's zero-cash preference and source-specific rights/PII gates.
