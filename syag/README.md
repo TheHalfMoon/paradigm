@@ -23,3 +23,9 @@
 
 ## For any future agent
 Follow [RESUME.md](RESUME.md), inspect current GitHub HEAD and open PRs, then continue the next proven unblocked gate; commit code/tests/reproducible evidence and update [STATUS.md](STATUS.md). Do not wait for routine confirmation or invent completed GPU work.
+
+## Expanded data and Kaggle execution (October 21, 2026)
+
+**Long-term research target:** 5,000,000 unique rights-admitted source pages, not augmented duplicates. Follow [MILLION_PAGE_STRATEGY](MILLION_PAGE_STRATEGY.md), [BOOKS_CORPUS](BOOKS_CORPUS.md), and [KAGGLE_EXECUTION](KAGGLE_EXECUTION.md). These are plans, not downloaded data.
+
+[Kaggle founder books intake #17](https://github.com/TheHalfMoon/paradigm/issues/17) covers licenses, scans and exact text/structure truth; [Kaggle isolation and compute #18](https://github.com/TheHalfMoon/paradigm/issues/18) preserves separation from Hala. Kaggle prohibits one person operating multiple active accounts under current published terms; use separate notebooks/datasets under one compliant identity, rather than creating an additional active account or bypassing quotas. Kaggle's limited free storage/GPU is not enough evidence to promise an all-corpus five-million-page training run.
