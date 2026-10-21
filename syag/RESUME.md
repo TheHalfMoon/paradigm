@@ -38,3 +38,9 @@ This file is written for a future engineer, Codex or AI agent. Read it at the st
 
 ## Start work now
 Inspect issue [S04](https://github.com/TheHalfMoon/paradigm/issues/7) and implement audited deterministic original synthetic Saudi document fixture generator, unless live issues/PRs show that work has already been completed. In parallel, source-evidence P0 sample validation under [S03](https://github.com/TheHalfMoon/paradigm/issues/6) is unblocked without a GPU. Always verify before repeating work.
+
+## Additional continuation: 5M corpus, books, Kaggle
+
+After all live refs and current status are verified, inspect [MILLION_PAGE_STRATEGY.md](MILLION_PAGE_STRATEGY.md), [BOOKS_CORPUS.md](BOOKS_CORPUS.md) and [KAGGLE_EXECUTION.md](KAGGLE_EXECUTION.md), plus open subissues #17 and #18. Five million source pages is a conditional data-quality goal; distinguish unique originals, physical/ebook metadata, verified image/transcript pairs and augmented variants. The founder can provide books, but **none are currently in the training corpus**. Avoid scraping protected books or personal Najiz records.
+
+Do not operate or create a second active Kaggle account for the same user to divide Hala/Syag or double resource quotas; current Kaggle Terms prohibit this. Keep Syag inputs/output/notebooks logically isolated from Hala within one compliant Kaggle identity; verify the right to perform intended commercial training. No Kaggle account, GPU, dataset or notebook was accessed by the plan-writing turn. Kaggle quotas may change and do not guarantee an end-to-end multi-million page training run. Record throughput before estimating training costs.
